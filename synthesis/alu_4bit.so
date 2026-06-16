@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>alu_4bit</design>
+	<target_verilog>E:\Projects\DRDO\drdo\synthesis\alu_4bit.vm</target_verilog>
+</SynplifyOutput>

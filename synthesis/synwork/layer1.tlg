@@ -1,0 +1,13 @@
+@N: CG364 :"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v":3:7:3:19|Synthesizing module apb_led_slave in library work.
+@N: CG179 :"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v":40:23:40:25|Removing redundant assignment.
+Running optimization stage 1 on apb_led_slave .......
+Finished optimization stage 1 on apb_led_slave (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 154MB)
+Running optimization stage 2 on apb_led_slave .......
+@W: CL246 :"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v":13:22:13:27|Input port bits 31 to 4 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on apb_led_slave (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 154MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: E:\Projects\DRDO\drdo\synthesis\synwork\layer1.duruntime
+
+

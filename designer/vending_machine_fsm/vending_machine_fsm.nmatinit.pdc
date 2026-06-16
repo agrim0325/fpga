@@ -1,0 +1,38 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: vending_machine_fsm 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Mon Jun 15 18:47:41 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io change -DIRECTION OUTPUT -pinname A15 -fixed no
+set_io clk -DIRECTION INPUT -pinname F4 -fixed no
+set_io coin10 -DIRECTION INPUT -pinname C14 -fixed no
+set_io coin5 -DIRECTION INPUT -pinname C16 -fixed no
+set_io dispense -DIRECTION OUTPUT -pinname C12 -fixed no
+set_io rst -DIRECTION INPUT -pinname E11 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location state\[1\] -fixed no 189 100
+set_location dispense_obuf_RNO -fixed no 185 99
+set_location state_ns_0\[0\] -fixed no 181 99
+set_location ip_interface_inst -fixed no 191 0
+set_location state_RNO\[1\] -fixed no 189 99
+set_location change_obuf_RNO -fixed no 183 99
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 99
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location state\[0\] -fixed no 181 100
+set_location clk_ibuf_RNIVTI21 -fixed no 220 54

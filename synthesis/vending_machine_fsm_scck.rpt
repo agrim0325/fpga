@@ -1,0 +1,46 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+
+# Written on Mon Jun 15 18:33:08 2026
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "E:\Projects\DRDO\drdo\designer\vending_machine_fsm\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                       Requested     Requested     Clock        Clock                                          Clock
+Level     Clock                       Frequency     Period        Type         Group                                          Load 
+-----------------------------------------------------------------------------------------------------------------------------------
+0 -       vending_machine_fsm|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     4    
+===================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                            Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
+Clock                       Load      Pin           Seq Example      Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------
+vending_machine_fsm|clk     4         clk(port)     state[3:0].C     -                 -            
+====================================================================================================

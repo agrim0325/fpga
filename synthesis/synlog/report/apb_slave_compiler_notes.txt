@@ -1,0 +1,13 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"E:\Projects\DRDO\drdo\hdl\apb_slave.vhd":5:7:5:15|Top entity is set to apb_slave.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\hdl\apb_slave.vhd'.
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N:"E:\Projects\DRDO\drdo\hdl\apb_slave.vhd":5:7:5:15|Top entity is set to apb_slave.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\hdl\apb_slave.vhd'.
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Projects\DRDO\drdo\hdl\apb_slave.vhd":5:7:5:15|Synthesizing work.apb_slave.behavioral.
+@N: CL134 :"E:\Projects\DRDO\drdo\hdl\apb_slave.vhd":41:8:41:9|Found RAM reg_bank_0, depth=4, width=32
+@N|Running in 64-bit mode
+

@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":4:7:4:15|Top entity is set to flipflops.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\hdl\flipflops.vhd'.
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N:"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":4:7:4:15|Top entity is set to flipflops.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\hdl\flipflops.vhd'.
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":4:7:4:15|Synthesizing work.flipflops.behavioral.
+@N: CD364 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":53:29:53:36|Removing redundant assignment.
+@N: CD364 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":88:29:88:36|Removing redundant assignment.
+@N|Running in 64-bit mode
+

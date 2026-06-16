@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>apb_led_slave</design>
+	<target_verilog>E:\Projects\DRDO\drdo\synthesis\apb_led_slave.vm</target_verilog>
+</SynplifyOutput>

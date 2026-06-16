@@ -1,0 +1,1207 @@
+KEY LIBERO "2025.2"
+KEY CAPTURE "2025.2.0.14"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "vf256"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "E:\Projects\DRDO\drdo"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "vending_machine_fsm::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREAPB3_LIB
+ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=COREAPB3_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781546209"
+SIZE="3259"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1781546209"
+SIZE="2013"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1781530867"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="4009"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="9540"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="2074"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="12455"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="82848"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="45675"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="12780"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="23829"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="6175"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="78872"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd,hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="5757"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd,hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="9523"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1781530867"
+SIZE="28895"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781598572"
+SIZE="241"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599043"
+SIZE="526"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="253"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="252"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="254"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="253"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="254"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="254"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="254"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="255"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="254"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MMUART\1.0.100\MSS_MMUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="256"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="255"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RTC\1.0.201\MSS_RTC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="253"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="258"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SPI\1.0.100\MSS_SPI.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="253"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="256"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_USB\1.0.101\MSS_USB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="253"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_WATCHDOG\1.0.100\MSS_WATCHDOG.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599040"
+SIZE="258"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781546211"
+SIZE="8546"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd,hdl"
+STATE="utd"
+TIME="1781546209"
+SIZE="14447"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781606573"
+SIZE="2491"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781598572"
+SIZE="10080"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.vhd,hdl"
+STATE="utd"
+TIME="1781598572"
+SIZE="7342"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781598571"
+SIZE="705"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1781598571"
+SIZE="5816"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf"
+ENDFILE
+VALUE "<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781599044"
+SIZE="16045"
+ENDFILE
+VALUE "<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.vhd,hdl"
+STATE="utd"
+TIME="1781599044"
+SIZE="90860"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\MSS_C0_MSS\MSS_C0_MSS_pre.vhd,hdl"
+STATE="utd"
+TIME="1781599043"
+SIZE="71608"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.vhd,hdl"
+STATE="utd"
+TIME="1781599043"
+SIZE="71590"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+ENDFILE
+VALUE "<project>\component\work\top_soc_new\top_soc_new.cxf,actgen_cxf"
+STATE="utd"
+TIME="1781606576"
+SIZE="6166"
+ENDFILE
+VALUE "<project>\component\work\top_soc_new\top_soc_new.vhd,hdl"
+STATE="utd"
+TIME="1781599051"
+SIZE="11528"
+PARENT="<project>\component\work\top_soc_new\top_soc_new.cxf"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1780253796"
+SIZE="1017"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\designer\flipflops\flipflops_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1780576918"
+SIZE="21426"
+ENDFILE
+VALUE "<project>\designer\flipflops\flipflops_ba.vhd,ba_hdl"
+STATE="utd"
+TIME="1780576918"
+SIZE="12902"
+ENDFILE
+VALUE "<project>\designer\register_4bit\register_4bit_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1780601222"
+SIZE="19181"
+ENDFILE
+VALUE "<project>\designer\register_4bit\register_4bit_ba.vhd,ba_hdl"
+STATE="utd"
+TIME="1780601222"
+SIZE="11308"
+ENDFILE
+VALUE "<project>\hdl\alu_4bit.vhd,hdl"
+STATE="utd"
+TIME="1780381310"
+SIZE="2091"
+ENDFILE
+VALUE "<project>\hdl\apb_led_slave.v,hdl"
+STATE="utd"
+TIME="1781516281"
+SIZE="986"
+ENDFILE
+VALUE "<project>\hdl\apb_slave.vhd,hdl"
+STATE="utd"
+TIME="1780558445"
+SIZE="2021"
+ENDFILE
+VALUE "<project>\hdl\counter_4bit.v,hdl"
+STATE="utd"
+TIME="1780600705"
+SIZE="226"
+ENDFILE
+VALUE "<project>\hdl\flipflops.vhd,hdl"
+STATE="utd"
+TIME="1780392668"
+SIZE="2685"
+ENDFILE
+VALUE "<project>\hdl\full_adder.vhd,hdl"
+STATE="utd"
+TIME="1780378482"
+SIZE="375"
+ENDFILE
+VALUE "<project>\hdl\led_blink.vhd,hdl"
+STATE="utd"
+TIME="1780209276"
+SIZE="1145"
+ENDFILE
+VALUE "<project>\hdl\register_4bit.v,hdl"
+STATE="utd"
+TIME="1780599251"
+SIZE="838"
+ENDFILE
+VALUE "<project>\hdl\vending_machine_fsm.v,hdl"
+STATE="utd"
+TIME="1781435615"
+SIZE="1502"
+ENDFILE
+VALUE "<project>\simulation\alu_4bit_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1780392773"
+SIZE="3946"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1781530867"
+SIZE="1229"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1781599043"
+SIZE="504"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+STATE="utd"
+TIME="1781530867"
+SIZE="8016"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\counter_4bit_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1780600796"
+SIZE="2551"
+ENDFILE
+VALUE "<project>\simulation\flip_flops_tb_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1780587723"
+SIZE="4819"
+ENDFILE
+VALUE "<project>\simulation\flip_flops_tb_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1780576883"
+SIZE="2948"
+ENDFILE
+VALUE "<project>\simulation\flip_flops_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1780576835"
+SIZE="2545"
+ENDFILE
+VALUE "<project>\simulation\led_blink_tb_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1780249323"
+SIZE="4329"
+ENDFILE
+VALUE "<project>\simulation\led_blink_tb_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1780249317"
+SIZE="2020"
+ENDFILE
+VALUE "<project>\simulation\led_blink_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1780381975"
+SIZE="2598"
+ENDFILE
+VALUE "<project>\simulation\MDDR_init.bfm,sim"
+STATE="utd"
+TIME="1780418233"
+SIZE="8004"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+STATE="utd"
+TIME="1780418077"
+SIZE="8450"
+PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\register_4bit_tb_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1780601284"
+SIZE="5242"
+ENDFILE
+VALUE "<project>\simulation\register_4bit_tb_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1780601187"
+SIZE="3141"
+ENDFILE
+VALUE "<project>\simulation\register_4bit_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1780601176"
+SIZE="2631"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1781600616"
+SIZE="1322"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1781600616"
+SIZE="835"
+PARENT="<project>\component\work\top_soc_new\top_soc_new.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1781599043"
+SIZE="734"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\testbench_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1780231593"
+SIZE="2362"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1780418077"
+SIZE="555"
+PARENT="<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.cxf"
+ENDFILE
+VALUE "<project>\stimulus\alu_4bit_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1780381375"
+SIZE="2218"
+ENDFILE
+VALUE "<project>\stimulus\apb_slave_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1780422216"
+SIZE="3549"
+ENDFILE
+VALUE "<project>\stimulus\counter_4bit_tb.v,tb_hdl"
+STATE="utd"
+TIME="1780600753"
+SIZE="1657"
+ENDFILE
+VALUE "<project>\stimulus\flip_flops_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1780578449"
+SIZE="4284"
+ENDFILE
+VALUE "<project>\stimulus\led_blink_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1780249492"
+SIZE="775"
+ENDFILE
+VALUE "<project>\stimulus\register_4bit_tb.v,tb_hdl"
+STATE="utd"
+TIME="1780600439"
+SIZE="1330"
+ENDFILE
+VALUE "<project>\stimulus\vending_machine_fsm_tb.v,tb_hdl"
+STATE="utd"
+TIME="1781435615"
+SIZE="2610"
+ENDFILE
+VALUE "<project>\synthesis\alu_4bit.so,so"
+STATE="utd"
+TIME="1780381812"
+SIZE="212"
+ENDFILE
+VALUE "<project>\synthesis\alu_4bit.vm,syn_vm"
+STATE="ood"
+TIME="1780381812"
+SIZE="11800"
+ENDFILE
+VALUE "<project>\synthesis\alu_4bit_syn.prj,prj"
+STATE="utd"
+TIME="1780381813"
+SIZE="2338"
+ENDFILE
+VALUE "<project>\synthesis\alu_4bit_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1780381812"
+SIZE="808"
+ENDFILE
+VALUE "<project>\synthesis\apb_slave.so,so"
+STATE="utd"
+TIME="1780401621"
+SIZE="214"
+ENDFILE
+VALUE "<project>\synthesis\apb_slave.vm,syn_vm"
+STATE="ood"
+TIME="1780401620"
+SIZE="43300"
+ENDFILE
+VALUE "<project>\synthesis\apb_slave_syn.prj,prj"
+STATE="utd"
+TIME="1780401621"
+SIZE="2343"
+ENDFILE
+VALUE "<project>\synthesis\apb_slave_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1780401620"
+SIZE="973"
+ENDFILE
+VALUE "<project>\synthesis\flipflops.so,so"
+STATE="utd"
+TIME="1780576862"
+SIZE="214"
+ENDFILE
+VALUE "<project>\synthesis\flipflops.vm,syn_vm"
+STATE="utd"
+TIME="1780576861"
+SIZE="4162"
+ENDFILE
+VALUE "<project>\synthesis\flipflops_syn.prj,prj"
+STATE="utd"
+TIME="1780576862"
+SIZE="2343"
+ENDFILE
+VALUE "<project>\synthesis\flipflops_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1780576861"
+SIZE="970"
+ENDFILE
+VALUE "<project>\synthesis\led_blink.so,so"
+STATE="utd"
+TIME="1780253989"
+SIZE="214"
+ENDFILE
+VALUE "<project>\synthesis\led_blink.vm,syn_vm"
+STATE="ood"
+TIME="1780253989"
+SIZE="5029"
+ENDFILE
+VALUE "<project>\synthesis\led_blink_syn.prj,prj"
+STATE="utd"
+TIME="1780253990"
+SIZE="2343"
+ENDFILE
+VALUE "<project>\synthesis\led_blink_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1780253989"
+SIZE="970"
+ENDFILE
+VALUE "<project>\synthesis\register_4bit.so,so"
+STATE="utd"
+TIME="1780601155"
+SIZE="222"
+ENDFILE
+VALUE "<project>\synthesis\register_4bit.vm,syn_vm"
+STATE="utd"
+TIME="1780601155"
+SIZE="2809"
+ENDFILE
+VALUE "<project>\synthesis\register_4bit_syn.prj,prj"
+STATE="utd"
+TIME="1780601156"
+SIZE="2365"
+ENDFILE
+VALUE "<project>\synthesis\register_4bit_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1780601155"
+SIZE="978"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_fsm.so,so"
+STATE="utd"
+TIME="1781528597"
+SIZE="234"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_fsm.vm,syn_vm"
+STATE="utd"
+TIME="1781528595"
+SIZE="3027"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_fsm_syn.prj,prj"
+STATE="utd"
+TIME="1781528597"
+SIZE="2395"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_fsm_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1781528595"
+SIZE="990"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "alu_4bit::work"
+FILE "<project>\hdl\alu_4bit.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\alu_4bit_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\alu_4bit.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "apb_slave::work"
+FILE "<project>\hdl\apb_slave.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\flipflops.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\alu_4bit.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\apb_slave.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\led_blink.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\apb_slave.edn,syn_edn"
+VALUE "<project>\phy_synthesis\apb_slave_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\apb_slave_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\apb_slave_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\apb_slave_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\apb_slave_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\apb_slave.adb,adb"
+VALUE "<project>\designer\impl1\apb_slave.fdb,fdb"
+VALUE "<project>\designer\impl1\apb_slave.pdb,pdb"
+VALUE "<project>\designer\impl1\apb_slave.stp,stp"
+VALUE "<project>\designer\impl1\apb_slave_fp\apb_slave.pro,pro"
+VALUE "<project>\synthesis\led_blink.vm,syn_vm"
+VALUE "<project>\synthesis\led_blink_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\led_blink.vhd,syn_hdl"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "flipflops::work"
+FILE "<project>\hdl\flipflops.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\flip_flops_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\flipflops.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "led_blink::work"
+FILE "<project>\hdl\led_blink.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\led_blink_tb.vhd,tb_hdl"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\led_blink.vm,syn_vm)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "MSS_C0_MSS::work"
+FILE "<project>\component\work\MSS_C0_MSS\MSS_C0_MSS.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\MDDR_init.bfm,sim"
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "register_4bit::work"
+FILE "<project>\hdl\register_4bit.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\register_4bit_tb.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\register_4bit.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "vending_machine_fsm::work"
+FILE "<project>\hdl\vending_machine_fsm.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\vending_machine_fsm_tb.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\vending_machine_fsm.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST synthesis_implementations
+VALUE "synthesis"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST vending_machine_fsm
+VALUE "<project>\stimulus\vending_machine_fsm_tb.v,tb_hdl"
+ENDLIST
+LIST register_4bit
+VALUE "<project>\stimulus\register_4bit_tb.v,tb_hdl"
+ENDLIST
+LIST led_blink
+VALUE "<project>\stimulus\led_blink_tb.vhd,tb_hdl"
+ENDLIST
+LIST flipflops
+VALUE "<project>\stimulus\flip_flops_tb.vhd,tb_hdl"
+ENDLIST
+LIST alu_4bit
+VALUE "<project>\stimulus\alu_4bit_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST MSS_C0_MSS
+VALUE "<project>\simulation\MDDR_init.bfm,sim"
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=vending_machine_fsm_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="E:\Microchip\Libero_SoC_2025.2\Libero_SoC\ModelSim_Pro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "alu_4bit::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\alu_4bit.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "apb_slave::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\flipflops.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\alu_4bit.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\apb_slave.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\led_blink.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\apb_slave.edn,syn_edn"
+VALUE "<project>\phy_synthesis\apb_slave_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\apb_slave_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\apb_slave_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\apb_slave_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\apb_slave_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\apb_slave.adb,adb"
+VALUE "<project>\designer\impl1\apb_slave.fdb,fdb"
+VALUE "<project>\designer\impl1\apb_slave.pdb,pdb"
+VALUE "<project>\designer\impl1\apb_slave.stp,stp"
+VALUE "<project>\designer\impl1\apb_slave_fp\apb_slave.pro,pro"
+VALUE "<project>\synthesis\led_blink.vm,syn_vm"
+VALUE "<project>\synthesis\led_blink_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\led_blink.vhd,syn_hdl"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "flipflops::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\flipflops.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "led_blink::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\led_blink.vm,syn_vm)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "register_4bit::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\register_4bit.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "vending_machine_fsm::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\vending_machine_fsm.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "alu_4bit::work","hdl\alu_4bit.vhd","FALSE","FALSE"
+ENDLIST
+LIST "apb_led_slave::work","hdl\apb_led_slave.v","FALSE","FALSE"
+ENDLIST
+LIST "apb_slave::work","hdl\apb_slave.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "counter_4bit::work","hdl\counter_4bit.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_010::work","component\work\MSS_C0_MSS\MSS_C0_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "flipflops::work","hdl\flipflops.vhd","FALSE","FALSE"
+ENDLIST
+LIST "full_adder::work","hdl\full_adder.vhd","FALSE","FALSE"
+ENDLIST
+LIST "led_blink::work","hdl\led_blink.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_C0_MSS::work","component\work\MSS_C0_MSS\MSS_C0_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_010::work","component\work\MSS_C0_MSS\MSS_C0_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "register_4bit::work","hdl\register_4bit.v","FALSE","FALSE"
+ENDLIST
+LIST "top_soc_new::work","component\work\top_soc_new\top_soc_new.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_C0_MSS::work","component\work\MSS_C0_MSS\MSS_C0_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "apb_led_slave::work","hdl\apb_led_slave.v","FALSE","FALSE"
+ENDLIST
+LIST "vending_machine_fsm::work","hdl\vending_machine_fsm.v","FALSE","FALSE"
+ENDLIST
+LIST "alu_4bit_tb::work","stimulus\alu_4bit_tb.vhd","FALSE","TRUE"
+SUBBLOCK "alu_4bit::work","hdl\alu_4bit.vhd","FALSE","FALSE"
+ENDLIST
+LIST "apb_slave_tb::work","stimulus\apb_slave_tb.vhd","FALSE","TRUE"
+SUBBLOCK "apb_slave::work","hdl\apb_slave.vhd","FALSE","FALSE"
+ENDLIST
+LIST "counter_4bit_tb::work","stimulus\counter_4bit_tb.v","FALSE","TRUE"
+SUBBLOCK "counter_4bit::work","hdl\counter_4bit.v","FALSE","FALSE"
+ENDLIST
+LIST "flip_flops_tb::work","stimulus\flip_flops_tb.vhd","FALSE","TRUE"
+SUBBLOCK "flipflops::work","hdl\flipflops.vhd","FALSE","FALSE"
+ENDLIST
+LIST "led_blink_tb::work","stimulus\led_blink_tb.vhd","FALSE","TRUE"
+SUBBLOCK "led_blink::work","hdl\led_blink.vhd","FALSE","FALSE"
+ENDLIST
+LIST "register_4bit_tb::work","stimulus\register_4bit_tb.v","FALSE","TRUE"
+SUBBLOCK "register_4bit::work","hdl\register_4bit.v","FALSE","FALSE"
+ENDLIST
+LIST "vending_machine_fsm_tb::work","stimulus\vending_machine_fsm_tb.v","FALSE","TRUE"
+SUBBLOCK "vending_machine_fsm::work","hdl\vending_machine_fsm.v","FALSE","FALSE"
+ENDLIST
+LIST "components::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+SUBBLOCK "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfm_misc::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_packAGE::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_package.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "vending_machine_fsm::work"
+ACTIVETESTBENCH "vending_machine_fsm_tb::work","stimulus\vending_machine_fsm_tb.v","FALSE"
+ENDLIST
+LIST "flipflops::work"
+ACTIVETESTBENCH "flip_flops_tb::work","stimulus\flip_flops_tb.vhd","FALSE"
+ENDLIST
+LIST "apb_slave::work"
+ACTIVETESTBENCH "apb_slave_tb::work","stimulus\apb_slave_tb.vhd","FALSE"
+ENDLIST
+LIST "alu_4bit::work"
+ACTIVETESTBENCH "alu_4bit_tb::work","stimulus\alu_4bit_tb.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

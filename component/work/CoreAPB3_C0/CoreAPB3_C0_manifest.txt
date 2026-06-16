@@ -1,0 +1,33 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Mon Jun 15 23:26:51 2026
+Project   :  E:\Projects\DRDO\drdo
+Component :  CoreAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    E:/Projects/DRDO/drdo/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd
+
+Stimulus files for all Simulation tools:
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/misc.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/textio.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_package.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_ahbtoapb.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apb.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apbslaveext.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apbslave.vhd
+    E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/test/user/testbench.vhd
+

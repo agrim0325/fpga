@@ -1,0 +1,12 @@
+@P:  Worst Slack : 7.736
+@P:  apb_slave|PCLK - Estimated Frequency : 441.6 MHz
+@P:  apb_slave|PCLK - Requested Frequency : 100.0 MHz
+@P:  apb_slave|PCLK - Estimated Period : 2.264
+@P:  apb_slave|PCLK - Requested Period : 10.000
+@P:  apb_slave|PCLK - Slack : 7.736
+@P: apb_slave Part : m2s010vf400-1
+@P: apb_slave Register bits  : 100 
+@P: apb_slave DSP Blocks  : 0
+@P: apb_slave I/O primitives : 136
+@P: apb_slave RAM64x18 :  2
+@P:  CPU Time : 0h:00m:04s

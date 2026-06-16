@@ -1,0 +1,81 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.top_soc_new|-layerid|0|-orig_srs|E:\\Projects\\DRDO\\drdo\\synthesis\\synwork\\top_soc_new_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_vhdl.exe":1763486032
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\location.map":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\snps_haps_pkg.vhd":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std1164.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std_textio.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\numeric.vhd":1763486234
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\umr_capim.vhd":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\arith.vhd":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\unsigned.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\hyperents.vhd":1763485106
+0 "E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+1 "E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+2 "E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+3 "E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd" vhdl
+4 "E:\Projects\DRDO\drdo\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd" vhdl
+5 "E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd" vhdl
+6 "E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0.vhd" vhdl
+7 "E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.vhd" vhdl
+8 "E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS.vhd" vhdl
+9 "E:\Projects\DRDO\drdo\component\work\top_soc_new\top_soc_new.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 0 1 
+3 -1
+4 2 3 
+5 -1
+6 5 
+7 -1
+8 7 
+9 4 6 8 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 4 
+3 4 
+4 9 
+5 6 
+6 9 
+7 8 
+8 9 
+9 -1
+
+# Design Unit to File Association
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 0
+module coreapb3_lib coreapb3_muxptob3 0
+arch coreapb3_lib coreapb3_iaddr_reg rtl 1
+module coreapb3_lib coreapb3_iaddr_reg 1
+arch coreapb3_lib coreapb3 coreapb3_arch 2
+module coreapb3_lib coreapb3 2
+arch work coreapb3_c0 rtl 4
+module work coreapb3_c0 4
+arch work fccc_c0_fccc_c0_0_fccc def_arch 5
+module work fccc_c0_fccc_c0_0_fccc 5
+arch work fccc_c0 rtl 6
+module work fccc_c0 6
+arch work mss_010 def_arch 7
+module work mss_010 7
+arch work mss_c0_mss rtl 8
+module work mss_c0_mss 8
+arch work top_soc_new rtl 9
+module work top_soc_new 9
+
+# Unbound Instances to File Association
+inst work fccc_c0_fccc_c0_0_fccc inbuf 5
+inst work fccc_c0_fccc_c0_0_fccc ccc 5
+inst work fccc_c0_fccc_c0_0_fccc clkint 5
+inst work fccc_c0_fccc_c0_0_fccc gnd 5
+inst work fccc_c0_fccc_c0_0_fccc vcc 5
+inst work mss_c0_mss bibuf 8
+inst work mss_c0_mss tribuff 8
+inst work mss_c0_mss inbuf 8
+inst work top_soc_new apb_led_slave 9
+
+#identified top module
+top_module top_soc_new

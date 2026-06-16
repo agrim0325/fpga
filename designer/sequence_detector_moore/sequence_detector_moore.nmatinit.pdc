@@ -1,0 +1,36 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: sequence_detector_moore 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Sun Jun  7 16:46:09 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname F4 -fixed no
+set_io detect -DIRECTION OUTPUT -pinname R11 -fixed no
+set_io din -DIRECTION INPUT -pinname T13 -fixed no
+set_io rst -DIRECTION INPUT -pinname M9 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location state\[1\] -fixed no 325 4
+set_location ip_interface_inst -fixed no 191 0
+set_location state\[2\] -fixed no 334 4
+set_location state_RNO\[1\] -fixed no 325 3
+set_location state_ns_0_a2\[2\] -fixed no 334 3
+set_location state_ns_0_a2\[0\] -fixed no 329 3
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 3
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location state\[0\] -fixed no 329 4
+set_location clk_ibuf_RNIVTI21 -fixed no 220 54

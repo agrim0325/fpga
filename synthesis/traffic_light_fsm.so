@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>traffic_light_fsm</design>
+	<target_verilog>E:\Projects\DRDO\drdo\synthesis\traffic_light_fsm.vm</target_verilog>
+</SynplifyOutput>

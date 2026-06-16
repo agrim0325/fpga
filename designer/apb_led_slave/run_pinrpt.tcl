@@ -1,0 +1,10 @@
+DESIGN=apb_led_slave
+DESDIR=E:\Projects\DRDO\drdo\designer\apb_led_slave
+TARGET_DIR=E:\Projects\DRDO\drdo\designer\apb_led_slave
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

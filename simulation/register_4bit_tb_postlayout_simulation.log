@@ -1,0 +1,107 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/register_4bit/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap postlayout ../designer/register_4bit/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap SmartFusion2 E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 00:57:28 on Jun 05,2026
+# vcom -reportprogress 300 -2008 -explicit -work postlayout E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity register_4bit
+# -- Compiling architecture DEF_ARCH of register_4bit
+# -- Loading entity sdf_IOPAD_IN
+# -- Loading entity sdf_IOPAD_TRI
+# End time: 00:57:28 on Jun 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 00:57:28 on Jun 05,2026
+# vlog -reportprogress 300 "+incdir+E:/Projects/DRDO/drdo/stimulus" -sv -work postlayout E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v 
+# -- Compiling module register_4bit_tb
+# 
+# Top level modules:
+# 	register_4bit_tb
+# End time: 00:57:28 on Jun 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/register_4bit_0=E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.sdf" "+transport_path_delays" postlayout.register_4bit_tb 
+# Start time: 00:57:29 on Jun 05,2026
+# //  ModelSim Microsemi Pro 2024.3 Sep 11 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading postlayout.register_4bit_tb
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postlayout.register_4bit(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.INV_BA
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.GB_NG
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.VCC
+# Loading instances from E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.sdf
+# Loading timing data from E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /register_4bit_tb File: E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v
+# PASS: Register loaded 1010
+# PASS: Register held value
+# PASS: Register loaded 1100
+# PASS: Register reset
+# All Register Tests Passed
+# ** Note: $stop    : E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v(70)
+#    Time: 65 ns  Iteration: 0  Instance: /register_4bit_tb
+# Break in Module register_4bit_tb at E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v line 70
+restart -f
+# Loading instances from E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.sdf
+# Loading timing data from E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /register_4bit_tb File: E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v
+run 200ns
+# PASS: Register loaded 1010
+# PASS: Register held value
+# PASS: Register loaded 1100
+# PASS: Register reset
+# All Register Tests Passed
+# ** Note: $stop    : E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v(70)
+#    Time: 65 ns  Iteration: 0  Instance: /register_4bit_tb
+# Break in Module register_4bit_tb at E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v line 70
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+wave zoom full
+# {0 fs} {68250 ps}

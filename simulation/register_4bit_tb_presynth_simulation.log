@@ -1,0 +1,55 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap SmartFusion2 E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 00:50:30 on Jun 05,2026
+# vlog -reportprogress 300 -sv -work presynth E:/Projects/DRDO/drdo/hdl/register_4bit.v 
+# -- Compiling module register_4bit
+# 
+# Top level modules:
+# 	register_4bit
+# End time: 00:50:30 on Jun 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 00:50:30 on Jun 05,2026
+# vlog -reportprogress 300 "+incdir+E:/Projects/DRDO/drdo/stimulus" -sv -work presynth E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v 
+# -- Compiling module register_4bit_tb
+# 
+# Top level modules:
+# 	register_4bit_tb
+# End time: 00:50:31 on Jun 05,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L presynth -t 1fs presynth.register_4bit_tb 
+# Start time: 00:50:31 on Jun 05,2026
+# //  ModelSim Microsemi Pro 2024.3 Sep 11 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading presynth.register_4bit_tb
+# Loading presynth.register_4bit
+# PASS: Register loaded 1010
+# PASS: Register held value
+# PASS: Register loaded 1100
+# PASS: Register reset
+# All Register Tests Passed
+# ** Note: $stop    : E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v(70)
+#    Time: 65 ns  Iteration: 0  Instance: /register_4bit_tb
+# Break in Module register_4bit_tb at E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v line 70
+# End time: 00:56:15 on Jun 05,2026, Elapsed time: 0:05:44
+# Errors: 0, Warnings: 0

@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2024.3 2024.09, Sep 11 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Projects/DRDO/drdo/simulation
+Eregister_4bit
+Z1 w1780601222
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+R0
+Z4 8E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.vhd
+Z5 FE:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.vhd
+l0
+L123 1
+VN^ZfSG4BW];]8JidRT]b41
+!s100 2:m[mokgf;>RSNTh4=NY41
+Z6 OW;C;2024.3;79
+33
+Z7 !s110 1780601248
+!i10b 1
+Z8 !s108 1780601248.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.vhd|
+Z10 !s107 E:/Projects/DRDO/drdo/designer/register_4bit/register_4bit_ba.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postlayout -O0
+Z12 tCvgOpt 0
+Adef_arch
+Z13 DEx4 work 13 sdf_iopad_tri 0 22 ;[_Sf<Cm@SQW`=bdlJ8@G3
+Z14 DEx4 work 12 sdf_iopad_in 0 22 9NPJRHgigP6`P2PT<WcC43
+R2
+R3
+DEx4 work 13 register_4bit 0 22 N^ZfSG4BW];]8JidRT]b41
+!i122 10
+l246
+L134 259
+V1^XV5QAA=_l;Yfhe::98G1
+!s100 ECE9JYQzFKAJY1>@Uh;_M3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vregister_4bit_tb
+2E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R7
+!i10b 1
+!s100 O`ljJ0nhJ6P>=?=FlXCg[3
+I15jRS]RF;8bb_]R:30G9S0
+S1
+R0
+w1780600439
+8E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v
+FE:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v
+!i122 11
+L0 2 72
+VDg1SIo80bB@j0V0VzS_@n1
+OW;L;2024.3;79
+r1
+!s85 0
+31
+R8
+!s107 E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v|
+!s90 -reportprogress|300|+incdir+E:/Projects/DRDO/drdo/stimulus|-sv|-work|postlayout|E:/Projects/DRDO/drdo/stimulus/register_4bit_tb.v|
+!s101 -O0
+!i113 1
+o-sv -work postlayout -O0
+!s92 +incdir+E:/Projects/DRDO/drdo/stimulus -sv -work postlayout -O0
+R12
+Esdf_iopad_in
+R1
+R2
+R3
+!i122 10
+R0
+R4
+R5
+l0
+L9 1
+V9NPJRHgigP6`P2PT<WcC43
+!s100 =]g=Nb5_<^]?g<E27Q3h32
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R14
+!i122 10
+l48
+L17 51
+V4@KE5HAYOBS_jA_1dH_<S2
+!s100 V[6U^iCgaJ7:ml?g^g?he0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esdf_iopad_tri
+R1
+R2
+R3
+!i122 10
+R0
+R4
+R5
+l0
+L74 1
+V;[_Sf<Cm@SQW`=bdlJ8@G3
+!s100 EZhk;;B=RglQ4IfQlULzN0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R13
+!i122 10
+l104
+L83 34
+VhMze71Ld>cz[];3[WJ^Z73
+!s100 bRdmbh@4^O4_KQQeo_:463
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

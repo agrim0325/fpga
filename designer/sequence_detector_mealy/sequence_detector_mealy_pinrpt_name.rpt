@@ -1,0 +1,17 @@
+----------------------------------------------------------------
+-Pin Report - Date: Sun Jun  7 17:01:37 2026 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: 2025.2
+-Version: 2025.2.0.14
+-Design Name: sequence_detector_mealy
+-Family: SmartFusion2
+-Die: M2S010
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port   |Pin |Fixed |Function            |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-------|----|------|--------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+clk     F4   No     MSIO78PB7/GB2        Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+detect  C8   No     DDRIO48PB0/MDDR_DQ8  Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+din     C6   No     DDRIO50NB0/MDDR_DQ6  Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+rst     A7   No     DDRIO49PB0/MDDR_DQ7  Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               

@@ -1,0 +1,8 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,Multi-Mode UART
+CoreAPB3_C0_0/CoreAPB3_C0_0/Primitives,2,0,0,0,0,0,0,0
+CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/Primitives,4,0,0,0,0,0,0,0
+FCCC_C0_0/FCCC_C0_0/Primitives,0,0,1,1,1,0,0,0
+MSS_C0_MSS_0/Primitives,0,0,18,0,0,1,0,0
+Primitives/Primitives,0,0,4,0,0,0,0,0
+apb_led_slave_0/Primitives,4,4,0,0,0,0,0,0

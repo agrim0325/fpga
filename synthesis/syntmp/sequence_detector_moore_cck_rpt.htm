@@ -1,0 +1,99 @@
+<html><body><samp><pre>
+<!@TC:1780830947>
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+
+# Written on Sun Jun  7 16:45:52 2026
+
+##### DESIGN INFO #######################################################
+
+Top View:                "sequence_detector_moore"
+Constraint File(s):      "E:\Projects\DRDO\drdo\designer\sequence_detector_moore\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+Clock Summary
+*************
+
+          Start                           Requested     Requested     Clock        Clock                                          Clock
+Level     Clock                           Frequency     Period        Type         Group                                          Load 
+---------------------------------------------------------------------------------------------------------------------------------------
+0 -       sequence_detector_moore|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     3    
+=======================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                           Load      Pin           Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------
+sequence_detector_moore|clk     3         clk(port)     state[0].C      -                 -            
+=======================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Starting                        Ending                          |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sequence_detector_moore|clk     sequence_detector_moore|clk     |     10.000           |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK42></a>Unconstrained Start/End Points</a>
+******************************
+
+p:detect
+p:din
+p:rst
+
+
+<a name=InapplicableconstraintsCCK43></a>Inapplicable constraints</a>
+************************
+
+(none)
+
+
+<a name=ApplicableConstraintsWithIssuesCCK44></a>Applicable constraints with issues</a>
+**********************************
+
+(none)
+
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK45></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+(none)
+
+
+<a name=LibraryReportCCK46></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

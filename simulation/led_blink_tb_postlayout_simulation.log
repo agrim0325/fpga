@@ -1,0 +1,87 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/led_blink/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap postlayout ../designer/led_blink/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap SmartFusion2 E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 23:10:36 on May 31,2026
+# vcom -reportprogress 300 -2008 -explicit -work postlayout E:/Projects/DRDO/drdo/designer/led_blink/led_blink_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity led_blink
+# -- Compiling architecture DEF_ARCH of led_blink
+# -- Loading entity sdf_IOPAD_IN
+# -- Loading entity sdf_IOPAD_TRI
+# End time: 23:10:36 on May 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 23:10:36 on May 31,2026
+# vcom -reportprogress 300 -2008 -explicit -work postlayout E:/Projects/DRDO/drdo/stimulus/led_blink_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture sim of testbench
+# -- Loading entity led_blink
+# End time: 23:10:36 on May 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/led_blink_0=E:/Projects/DRDO/drdo/designer/led_blink/led_blink_ba.sdf" "+transport_path_delays" postlayout.led_blink_tb 
+# Start time: 23:10:36 on May 31,2026
+# //  ModelSim Microsemi Pro 2024.3 Sep 11 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postlayout.led_blink_tb(sim)
+# Loading postlayout.led_blink(def_arch)
+# Loading SmartFusion2.CFG4
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG1
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading SmartFusion2.IP_INTERFACE
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.VCC
+# Loading instances from E:/Projects/DRDO/drdo/designer/led_blink/led_blink_ba.sdf
+# ** Error (suppressible): (vsim-SDF-3250) E:/Projects/DRDO/drdo/designer/led_blink/led_blink_ba.sdf(0): Failed to find INSTANCE '/led_blink_0'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Error (suppressible): (vsim-SDF-3250) E:/Projects/DRDO/drdo/designer/led_blink/led_blink_ba.sdf(0): Failed to find INSTANCE '/led_blink_0'.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+# End time: 23:12:02 on May 31,2026, Elapsed time: 0:01:26
+# Errors: 3, Warnings: 0

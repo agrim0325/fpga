@@ -1,0 +1,72 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: No User PDC file(s) was specified.
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 18 fixed I/O macros, 5 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+
+Placer V5.0 - 2025.2.0 
+Design: top_soc_new                     Started: Wed Jun 17 00:48:10 2026
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: top_soc_new                     
+Finished: Wed Jun 17 00:48:13 2026
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
+Total Memory Usage: 119.7 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: E:\Projects\DRDO\drdo\designer\top_soc_new\top_soc_newStarted: Wed Jun 17 00:48:15 2026
+
+
+Router completed successfully.
+
+Design: E:\Projects\DRDO\drdo\designer\top_soc_new\top_soc_new
+Finished: Wed Jun 17 00:48:18 2026
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
+Total Memory Usage: 449.7 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 10   | 12084 | 0.08       |
+| DFF           | 4    | 12084 | 0.03       |
+| I/O Register  | 0    | 408   | 0.00       |
+| Logic Element | 10   | 12084 | 0.08       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  18   | 78.26%     |
+| Placed |  5    | 21.74%     |
++--------+-------+------------+
+

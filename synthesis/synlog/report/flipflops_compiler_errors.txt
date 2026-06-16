@@ -1,0 +1,13 @@
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":51:18:51:23|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":52:21:52:24|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":53:21:53:24|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":54:21:54:24|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":55:21:55:24|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":85:18:85:23|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":86:21:86:24|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":87:21:87:24|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":88:21:88:24|Expression has ambiguous type
+@E: CD716 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":89:21:89:24|Expression has ambiguous type
+@E: CD308 :"E:\Projects\DRDO\drdo\hdl\flipflops.vhd":51:18:51:23|Unable to evaluate expression type
+@E::Errors while synthesizing top module work.flipflops.
+

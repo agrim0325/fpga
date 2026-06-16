@@ -1,0 +1,48 @@
+Warning: CMPG4-007: Top level port PWDATA[31] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[30] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[29] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[28] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[27] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[26] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[25] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[24] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[23] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[22] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[21] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[20] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[19] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[18] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[17] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[16] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[15] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[14] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[13] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[12] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[11] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[10] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[9] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[8] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[7] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[6] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[5] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PWDATA[4] is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       1 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    4      0      0      'PCLK_ibuf_RNIFTKQ4' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

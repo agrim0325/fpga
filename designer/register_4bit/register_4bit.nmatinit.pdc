@@ -1,0 +1,41 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: register_4bit 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Fri Jun  5 00:56:53 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname F4 -fixed no
+set_io d\[0\] -DIRECTION INPUT -pinname A4 -fixed no
+set_io d\[1\] -DIRECTION INPUT -pinname A10 -fixed no
+set_io d\[2\] -DIRECTION INPUT -pinname C8 -fixed no
+set_io d\[3\] -DIRECTION INPUT -pinname B2 -fixed no
+set_io en -DIRECTION INPUT -pinname A5 -fixed no
+set_io q\[0\] -DIRECTION OUTPUT -pinname A7 -fixed no
+set_io q\[1\] -DIRECTION OUTPUT -pinname B5 -fixed no
+set_io q\[2\] -DIRECTION OUTPUT -pinname B7 -fixed no
+set_io q\[3\] -DIRECTION OUTPUT -pinname C6 -fixed no
+set_io rst -DIRECTION INPUT -pinname A3 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 99
+set_location q_Z\[0\] -fixed no 103 100
+set_location clk_ibuf_RNIVTI21 -fixed no 220 54
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location q_Z\[1\] -fixed no 98 100
+set_location ip_interface_inst -fixed no 191 0
+set_location q_Z\[3\] -fixed no 99 100
+set_location q_Z\[2\] -fixed no 100 100

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top_soc_new</header>
+  <drc>
+    <status>E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin CoreAPB3_C0_0:APBmslave0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_soc_new/pins/CoreAPB3_C0_0:APBmslave0</crossprobe>
+  </drc>
+  <drc>
+    <status>E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin FCCC_C0_0:LOCK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top_soc_new/pins/FCCC_C0_0:LOCK</crossprobe>
+  </drc>
+</drcreport>

@@ -1,0 +1,65 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: top_soc_new 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Wed Jun 17 00:48:18 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io CLK0_PAD -DIRECTION INPUT -pinname H1 -fixed no
+set_io MMUART_0_RXD -DIRECTION INPUT -pinname G13 -fixed no
+set_io MMUART_0_TXD -DIRECTION OUTPUT -pinname G12 -fixed no
+set_io SPI_0_CLK -DIRECTION INOUT -pinname J14 -fixed no
+set_io SPI_0_DI -DIRECTION INPUT -pinname J13 -fixed no
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname K12 -fixed no
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname J12 -fixed no
+set_io USB_ULPI_DATA\[0\] -DIRECTION INOUT -pinname L11 -fixed no
+set_io USB_ULPI_DATA\[1\] -DIRECTION INOUT -pinname L12 -fixed no
+set_io USB_ULPI_DATA\[2\] -DIRECTION INOUT -pinname K16 -fixed no
+set_io USB_ULPI_DATA\[3\] -DIRECTION INOUT -pinname L15 -fixed no
+set_io USB_ULPI_DATA\[4\] -DIRECTION INOUT -pinname L14 -fixed no
+set_io USB_ULPI_DATA\[5\] -DIRECTION INOUT -pinname L13 -fixed no
+set_io USB_ULPI_DATA\[6\] -DIRECTION INOUT -pinname K14 -fixed no
+set_io USB_ULPI_DATA\[7\] -DIRECTION INOUT -pinname N15 -fixed no
+set_io USB_ULPI_DIR -DIRECTION INPUT -pinname M16 -fixed no
+set_io USB_ULPI_NXT -DIRECTION INPUT -pinname M13 -fixed no
+set_io USB_ULPI_STP -DIRECTION OUTPUT -pinname N14 -fixed no
+set_io USB_ULPI_XCLK -DIRECTION INPUT -pinname N16 -fixed no
+set_io led\[0\] -DIRECTION OUTPUT -pinname H15 -fixed no
+set_io led\[1\] -DIRECTION OUTPUT -pinname P12 -fixed no
+set_io led\[2\] -DIRECTION OUTPUT -pinname H14 -fixed no
+set_io led\[3\] -DIRECTION OUTPUT -pinname P9 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/PRDATA\[1\] -fixed no 386 36
+set_location CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/PRDATA\[3\] -fixed no 387 36
+set_location apb_led_slave_0/led\[0\] -fixed no 391 37
+set_location apb_led_slave_0/led4_3 -fixed no 389 36
+set_location CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/PRDATA\[0\] -fixed no 391 36
+set_location apb_led_slave_0/led4_4 -fixed no 393 36
+set_location CoreAPB3_C0_0/CoreAPB3_C0_0/iPSELS_raw_1\[0\] -fixed no 390 36
+set_location FCCC_C0_0/FCCC_C0_0/GL0_INST/U0_RGB1 -fixed no 218 36
+set_location apb_led_slave_0/led\[1\] -fixed no 386 37
+set_location apb_led_slave_0/led4 -fixed no 392 36
+set_location ip_interface_inst -fixed no 191 0
+set_location apb_led_slave_0/led\[3\] -fixed no 387 37
+set_location apb_led_slave_0/led_0_sqmuxa -fixed no 394 36
+set_location apb_led_slave_0/led\[2\] -fixed no 384 37
+set_location CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/PRDATA\[2\] -fixed no 384 36
+set_location CoreAPB3_C0_0/CoreAPB3_C0_0/iPSELS_raw\[0\] -fixed no 385 36
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location FCCC_C0_0/FCCC_C0_0/GL0_INST -fixed no 220 54
+set_location FCCC_C0_0/FCCC_C0_0/CCC_INST -fixed no 390 92
+set_location MSS_C0_MSS_0/MSS_ADLIB_INST -fixed no 300 104

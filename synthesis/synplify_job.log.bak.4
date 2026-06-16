@@ -1,0 +1,88 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "16:59:11    15-Jun-2026",
+	"Working Directory" : "E:/Projects/DRDO/drdo/synthesis",
+	"Install" : "E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "16:58:51",
+   "Runtime" : "20s",
+   "Executable Run Time" : "18s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "16:58:51",
+      "Runtime" : "20s",
+      "Executable Run Time" : "18s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:58:51",
+         "Runtime" : "14s",
+         "Executable Run Time" : "13s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "16:58:51",
+            "Runtime" : "11s",
+            "Executable Run Time" : "10s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "E:/Projects/DRDO/drdo/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "16:58:51",
+               "Run Time" : "11s",
+               "Exe Run Time" : "10s",
+               "max_parallel_jobs" : "4",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "E:/Projects/DRDO/drdo/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "16:59:02",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "E:/Projects/DRDO/drdo/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "16:59:02",
+            "Run Time" : "03s",
+            "Exe Run Time" : "03s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:59:06",
+         "Runtime" : "05s",
+         "Executable Run Time" : "05s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "E:/Projects/DRDO/drdo/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "16:59:06",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

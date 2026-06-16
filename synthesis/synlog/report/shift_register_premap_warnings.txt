@@ -1,0 +1,1 @@
+@W: MT530 :"e:\projects\drdo\drdo\hdl\shift_register.v":14:0:14:5|Found inferred clock shift_register|clk which controls 4 sequential elements including q[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

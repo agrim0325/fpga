@@ -1,0 +1,7 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist vending_machine_fsm 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file E:\Projects\DRDO\drdo\synthesis\vending_machine_fsm.sap.
+@N: MO225 :"e:\projects\drdo\drdo\hdl\vending_machine_fsm.v":22:0:22:5|There are no possible illegal states for state machine state[3:0] (in view: work.vending_machine_fsm(verilog)); safe FSM implementation is not required.

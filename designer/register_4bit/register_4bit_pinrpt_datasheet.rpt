@@ -1,0 +1,24 @@
+----------------------------------------------------------------
+-Pin Report - Date: Fri Jun  5 00:56:54 2026 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: 2025.2
+-Version: 2025.2.0.14
+-Design Name: register_4bit
+-Family: SmartFusion2
+-Die: M2S010
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port |Pin |Fixed |Function                 |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----|----|------|-------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+clk   F4   No     MSIO78PB7/GB2             Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+d[0]  A4   No     DDRIO52NB0/MDDR_DQS0_N    Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+d[1]  A10  No     DDRIO46NB0/MDDR_DQS1_N    Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+d[2]  C8   No     DDRIO48PB0/MDDR_DQ8       Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+d[3]  B2   No     DDRIO54PB0/MDDR_DQ0       Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+en    A5   No     DDRIO52PB0/MDDR_DQS0      Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+q[0]  A7   No     DDRIO49PB0/MDDR_DQ7       Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+q[1]  B5   No     DDRIO53NB0/MDDR_DQ3       Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+q[2]  B7   No     DDRIO50PB0/MDDR_DQ5       Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+q[3]  C6   No     DDRIO50NB0/MDDR_DQ6       Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+rst   A3   No     DDRIO51PB0/MDDR_DM_RDQS0  Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               

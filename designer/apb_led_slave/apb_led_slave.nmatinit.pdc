@@ -1,0 +1,92 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: apb_led_slave 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Tue Jun 16 14:29:51 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io PADDR\[0\] -DIRECTION INPUT -pinname A12 -fixed no
+set_io PADDR\[1\] -DIRECTION INPUT -pinname A7 -fixed no
+set_io PADDR\[2\] -DIRECTION INPUT -pinname E11 -fixed no
+set_io PADDR\[3\] -DIRECTION INPUT -pinname A14 -fixed no
+set_io PADDR\[4\] -DIRECTION INPUT -pinname C16 -fixed no
+set_io PADDR\[5\] -DIRECTION INPUT -pinname E15 -fixed no
+set_io PADDR\[6\] -DIRECTION INPUT -pinname D1 -fixed no
+set_io PADDR\[7\] -DIRECTION INPUT -pinname B7 -fixed no
+set_io PCLK -DIRECTION INPUT -pinname F4 -fixed no
+set_io PENABLE -DIRECTION INPUT -pinname C4 -fixed no
+set_io PRDATA\[0\] -DIRECTION OUTPUT -pinname A13 -fixed no
+set_io PRDATA\[1\] -DIRECTION OUTPUT -pinname A3 -fixed no
+set_io PRDATA\[2\] -DIRECTION OUTPUT -pinname B11 -fixed no
+set_io PRDATA\[3\] -DIRECTION OUTPUT -pinname C9 -fixed no
+set_io PRDATA\[4\] -DIRECTION OUTPUT -pinname P9 -fixed no
+set_io PRDATA\[5\] -DIRECTION OUTPUT -pinname F3 -fixed no
+set_io PRDATA\[6\] -DIRECTION OUTPUT -pinname D14 -fixed no
+set_io PRDATA\[7\] -DIRECTION OUTPUT -pinname H1 -fixed no
+set_io PRDATA\[8\] -DIRECTION OUTPUT -pinname R10 -fixed no
+set_io PRDATA\[9\] -DIRECTION OUTPUT -pinname T8 -fixed no
+set_io PRDATA\[10\] -DIRECTION OUTPUT -pinname C5 -fixed no
+set_io PRDATA\[11\] -DIRECTION OUTPUT -pinname H16 -fixed no
+set_io PRDATA\[12\] -DIRECTION OUTPUT -pinname F14 -fixed no
+set_io PRDATA\[13\] -DIRECTION OUTPUT -pinname T13 -fixed no
+set_io PRDATA\[14\] -DIRECTION OUTPUT -pinname T6 -fixed no
+set_io PRDATA\[15\] -DIRECTION OUTPUT -pinname J1 -fixed no
+set_io PRDATA\[16\] -DIRECTION OUTPUT -pinname H3 -fixed no
+set_io PRDATA\[17\] -DIRECTION OUTPUT -pinname A4 -fixed no
+set_io PRDATA\[18\] -DIRECTION OUTPUT -pinname A8 -fixed no
+set_io PRDATA\[19\] -DIRECTION OUTPUT -pinname J13 -fixed no
+set_io PRDATA\[20\] -DIRECTION OUTPUT -pinname F5 -fixed no
+set_io PRDATA\[21\] -DIRECTION OUTPUT -pinname M10 -fixed no
+set_io PRDATA\[22\] -DIRECTION OUTPUT -pinname N10 -fixed no
+set_io PRDATA\[23\] -DIRECTION OUTPUT -pinname G1 -fixed no
+set_io PRDATA\[24\] -DIRECTION OUTPUT -pinname K1 -fixed no
+set_io PRDATA\[25\] -DIRECTION OUTPUT -pinname G14 -fixed no
+set_io PRDATA\[26\] -DIRECTION OUTPUT -pinname M9 -fixed no
+set_io PRDATA\[27\] -DIRECTION OUTPUT -pinname K14 -fixed no
+set_io PRDATA\[28\] -DIRECTION OUTPUT -pinname H15 -fixed no
+set_io PRDATA\[29\] -DIRECTION OUTPUT -pinname T7 -fixed no
+set_io PRDATA\[30\] -DIRECTION OUTPUT -pinname E4 -fixed no
+set_io PRDATA\[31\] -DIRECTION OUTPUT -pinname J14 -fixed no
+set_io PREADY -DIRECTION OUTPUT -pinname A5 -fixed no
+set_io PRESETN -DIRECTION INPUT -pinname B8 -fixed no
+set_io PSEL -DIRECTION INPUT -pinname C10 -fixed no
+set_io PWDATA\[0\] -DIRECTION INPUT -pinname C12 -fixed no
+set_io PWDATA\[1\] -DIRECTION INPUT -pinname D7 -fixed no
+set_io PWDATA\[2\] -DIRECTION INPUT -pinname B5 -fixed no
+set_io PWDATA\[3\] -DIRECTION INPUT -pinname D8 -fixed no
+set_io PWRITE -DIRECTION INPUT -pinname B10 -fixed no
+set_io led\[0\] -DIRECTION OUTPUT -pinname D9 -fixed no
+set_io led\[1\] -DIRECTION OUTPUT -pinname A10 -fixed no
+set_io led\[2\] -DIRECTION OUTPUT -pinname E8 -fixed no
+set_io led\[3\] -DIRECTION OUTPUT -pinname C11 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location led_Z\[3\] -fixed no 136 100
+set_location led_Z\[1\] -fixed no 134 100
+set_location PCLK_ibuf_RNIFTKQ4/U0_RGB1 -fixed no 218 99
+set_location PRDATA_1\[0\] -fixed no 133 99
+set_location PRDATA_1\[2\] -fixed no 137 99
+set_location PCLK_ibuf_RNIFTKQ4 -fixed no 220 54
+set_location led_0_sqmuxa -fixed no 132 99
+set_location led_Z\[0\] -fixed no 133 100
+set_location PRDATA_1\[3\] -fixed no 136 99
+set_location led_Z\[2\] -fixed no 137 100
+set_location ip_interface_inst -fixed no 191 0
+set_location PRDATA_1\[1\] -fixed no 134 99
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location led4 -fixed no 135 99
+set_location led4_3 -fixed no 107 99
+set_location led4_4 -fixed no 156 99

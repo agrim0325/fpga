@@ -1,0 +1,33 @@
+Resource Usage Report for apb_led_slave 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+CLKINT          1 use
+CFG2           1 use
+CFG4           7 uses
+
+
+Sequential Cells: 
+SLE            4 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 82
+I/O primitives: 54
+INBUF          17 uses
+OUTBUF         37 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    8
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  4 + 0 + 0 + 0 = 4;
+Total number of LUTs after P&R:  8 + 0 + 0 + 0 = 8;
+

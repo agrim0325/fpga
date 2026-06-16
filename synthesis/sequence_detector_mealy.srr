@@ -1,0 +1,561 @@
+#Build: Synplify Pro (R) W-2025.03M-SP1-1, Build 183R, Nov 18 2025
+#install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+#OS: Windows 10 or later
+#Hostname: LAPTOP-JM793N9B
+
+# Sun Jun  7 17:01:15 2026
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v" (library work)
+@I::"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Projects\DRDO\drdo\component\syn_comps.v" (library work)
+@W: CG100 :"E:\Projects\DRDO\drdo\component\syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@I::"E:\Projects\DRDO\drdo\hdl\sequence_detector_mealy.v" (library work)
+Verilog syntax check successful!
+Selecting top level module sequence_detector_mealy
+@N: CG364 :"E:\Projects\DRDO\drdo\hdl\sequence_detector_mealy.v":3:7:3:29|Synthesizing module sequence_detector_mealy in library work.
+Running optimization stage 1 on sequence_detector_mealy .......
+Finished optimization stage 1 on sequence_detector_mealy (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 153MB)
+Running optimization stage 2 on sequence_detector_mealy .......
+@N: CL201 :"E:\Projects\DRDO\drdo\hdl\sequence_detector_mealy.v":20:4:20:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on sequence_detector_mealy (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 153MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: E:\Projects\DRDO\drdo\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 153MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jun  7 17:01:16 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 152MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jun  7 17:01:16 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\Projects\DRDO\drdo\synthesis\synwork\sequence_detector_mealy_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 84MB peak: 84MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jun  7 17:01:16 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 153MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Jun  7 17:01:17 2026
+
+###########################################################]
+Premap Report
+
+# Sun Jun  7 17:01:17 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 203MB)
+
+Reading constraint file: E:\Projects\DRDO\drdo\designer\sequence_detector_mealy\synthesis.fdc
+@L: E:\Projects\DRDO\drdo\synthesis\sequence_detector_mealy_scck.rpt 
+See clock summary report "E:\Projects\DRDO\drdo\synthesis\sequence_detector_mealy_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 203MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 203MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 203MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 203MB)
+
+NConnInternalConnection caching is on
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 250MB peak: 251MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist sequence_detector_mealy 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+
+Clock Summary
+******************
+
+          Start                           Requested     Requested     Clock        Clock                                          Clock
+Level     Clock                           Frequency     Period        Type         Group                                          Load 
+---------------------------------------------------------------------------------------------------------------------------------------
+0 -       sequence_detector_mealy|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1     4    
+=======================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
+Clock                           Load      Pin           Seq Example      Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------------------
+sequence_detector_mealy|clk     4         clk(port)     state[3:0].C     -                 -            
+========================================================================================================
+
+@W: MT530 :"e:\projects\drdo\drdo\hdl\sequence_detector_mealy.v":20:4:20:9|Found inferred clock sequence_detector_mealy|clk which controls 4 sequential elements including state[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\Projects\DRDO\drdo\synthesis\sequence_detector_mealy.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
+
+Encoding state machine state[3:0] (in view: work.sequence_detector_mealy(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\projects\drdo\drdo\hdl\sequence_detector_mealy.v":20:4:20:9|There are no possible illegal states for state machine state[3:0] (in view: work.sequence_detector_mealy(verilog)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 256MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Jun  7 17:01:19 2026
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Jun  7 17:01:19 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 203MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 203MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 203MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 203MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
+
+Encoding state machine state[3:0] (in view: work.sequence_detector_mealy(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\projects\drdo\drdo\hdl\sequence_detector_mealy.v":20:4:20:9|There are no possible illegal states for state machine state[3:0] (in view: work.sequence_detector_mealy(verilog)); safe FSM implementation is not required.
+
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 256MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     9.04ns		   2 /         2
+@N: FP130 |Promoting Net clk_c on CLKINT  I_10 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 257MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 208MB peak: 257MB)
+
+Writing Analyst data base E:\Projects\DRDO\drdo\synthesis\synwork\sequence_detector_mealy_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 257MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 257MB peak: 259MB)
+
+@W: MT420 |Found inferred clock sequence_detector_mealy|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sun Jun  7 17:01:22 2026
+#
+
+
+Top view:               sequence_detector_mealy
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Projects\DRDO\drdo\designer\sequence_detector_mealy\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 8.877
+
+                                Requested     Estimated     Requested     Estimated               Clock        Clock                                     
+Starting Clock                  Frequency     Frequency     Period        Period        Slack     Type         Group                                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+sequence_detector_mealy|clk     100.0 MHz     890.6 MHz     10.000        1.123         8.877     inferred     Inferred_clkgroup_0, Inferred_clkgroup_0_1
+=========================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                     Ending                       |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------
+sequence_detector_mealy|clk  sequence_detector_mealy|clk  |  10.000      8.877  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sequence_detector_mealy|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                                      Arrival          
+Instance     Reference                       Type     Pin     Net          Time        Slack
+             Clock                                                                          
+--------------------------------------------------------------------------------------------
+state[1]     sequence_detector_mealy|clk     SLE      Q       state[1]     0.076       8.877
+state[0]     sequence_detector_mealy|clk     SLE      Q       state[0]     0.094       8.948
+============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                         Required          
+Instance     Reference                       Type     Pin     Net             Time         Slack
+             Clock                                                                              
+------------------------------------------------------------------------------------------------
+state[1]     sequence_detector_mealy|clk     SLE      D       state_ns[1]     9.778        8.877
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      0.901
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     8.877
+
+    Number of logic level(s):                1
+    Starting point:                          state[1] / Q
+    Ending point:                            state[1] / D
+    The start point is clocked by            sequence_detector_mealy|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sequence_detector_mealy|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+state[1]             SLE      Q        Out     0.076     0.076 r     -         
+state[1]             Net      -        -       0.432     -           2         
+state_ns_1_0_.m2     CFG3     C        In      -         0.508 r     -         
+state_ns_1_0_.m2     CFG3     Y        Out     0.177     0.685 r     -         
+state_ns[1]          Net      -        -       0.216     -           1         
+state[1]             SLE      D        In      -         0.901 r     -         
+===============================================================================
+Total path delay (propagation time + setup) of 1.123 is 0.475(42.3%) logic and 0.648(57.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 258MB peak: 259MB)
+
+---------------------------------------
+Resource Usage Report for sequence_detector_mealy 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG3           2 uses
+
+
+Sequential Cells: 
+SLE            2 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 4
+I/O primitives: 4
+INBUF          3 uses
+OUTBUF         1 use
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    3
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  2 + 0 + 0 + 0 = 2;
+Total number of LUTs after P&R:  3 + 0 + 0 + 0 = 3;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 126MB peak: 259MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Jun  7 17:01:23 2026
+
+###########################################################]

@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+-Pin Report - Date: Mon Jun 15 18:47:42 2026 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: 2025.2
+-Version: 2025.2.0.14
+-Design Name: vending_machine_fsm
+-Family: SmartFusion2
+-Die: M2S010
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port     |Pin |Fixed |Function              |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+---------|----|------|----------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+change    A15  No     DDRIO39NB0/MDDR_CLK_N  Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+clk       F4   No     MSIO78PB7/GB2          Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+coin5     C16  No     DDRIO35NB0/MDDR_ADDR4  Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+coin10    C14  No     DDRIO37NB0/MDDR_ADDR0  Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+dispense  C12  No     DDRIO38PB0/MDDR_BA0    Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+rst       E11  No     DDRIO36PB0/MDDR_ADDR1  Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               

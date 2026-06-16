@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text></text>
+<title>Power Report for design shift_register with the following settings:</title>
+<text></text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Vendor:</cell>
+ <cell>Microchip Technology Inc.</cell>
+</row>
+<row>
+ <cell>Program:</cell>
+ <cell>Microchip Libero Software, Release 2025.2 (Version 2025.2.0.14)</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Copyright (C) 1989-</cell>
+</row>
+<row>
+ <cell>Date:</cell>
+ <cell>Sun Jun  7 10:16:08 2026</cell>
+</row>
+<row>
+ <cell>Version:</cell>
+ <cell>3.0</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design:</cell>
+ <cell>shift_register</cell>
+</row>
+<row>
+ <cell>Family:</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die:</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package:</cell>
+ <cell>256 VF</cell>
+</row>
+<row>
+ <cell>Temperature Range:</cell>
+ <cell>COM</cell>
+</row>
+<row>
+ <cell>Voltage Range:</cell>
+ <cell>COM</cell>
+</row>
+<row>
+ <cell>Operating Conditions:</cell>
+ <cell>Typical</cell>
+</row>
+<row>
+ <cell>Operating Mode:</cell>
+ <cell>Active</cell>
+</row>
+<row>
+ <cell>Process:</cell>
+ <cell>Typical</cell>
+</row>
+<row>
+ <cell>Data Source:</cell>
+ <cell>Production</cell>
+</row>
+</table>
+<text></text>
+<section><name>Power Summary</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>Total Power</cell>
+ <cell>     9.894</cell>
+ <cell>    100.0%</cell>
+</row>
+<row>
+ <cell>Static Power</cell>
+ <cell>     9.894</cell>
+ <cell>    100.0%</cell>
+</row>
+<row>
+ <cell>Dynamic Power</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Rail</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Voltage (V)</cell>
+ <cell>Current (mA)</cell>
+</header>
+<row>
+ <cell>Rail VDD</cell>
+ <cell>     8.262</cell>
+ <cell>     1.200</cell>
+ <cell>     6.885</cell>
+</row>
+<row>
+ <cell>Rail VDDI 2.5</cell>
+ <cell>     1.007</cell>
+ <cell>     2.500</cell>
+ <cell>     0.403</cell>
+</row>
+<row>
+ <cell>Rail VPP</cell>
+ <cell>     0.625</cell>
+ <cell>     2.500</cell>
+ <cell>     0.250</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Clock</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>clk (clocks)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>clk (register outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>clk (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>clk (combinational outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>clk (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>Input to Output</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Type</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>Type Core Static</cell>
+ <cell>     8.262</cell>
+ <cell>     83.5%</cell>
+</row>
+<row>
+ <cell>Type Banks Static</cell>
+ <cell>     1.007</cell>
+ <cell>     10.2%</cell>
+</row>
+<row>
+ <cell>Type VPP Static</cell>
+ <cell>     0.625</cell>
+ <cell>      6.3%</cell>
+</row>
+</table>
+<text></text>
+</doc>

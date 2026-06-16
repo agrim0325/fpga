@@ -1,0 +1,45 @@
+# Reading pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap postlayout ../designer/led_blink/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap SmartFusion2 E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 18:16:32 on May 31,2026
+# vcom -reportprogress 300 -2008 -explicit -work postlayout E:/Projects/DRDO/drdo/designer/led_blink/led_blink_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity led_blink
+# -- Compiling architecture DEF_ARCH of led_blink
+# -- Loading entity sdf_IOPAD_IN
+# -- Loading entity sdf_IOPAD_TRI
+# End time: 18:16:32 on May 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 18:16:32 on May 31,2026
+# vcom -reportprogress 300 -2008 -explicit -work postlayout E:/Projects/DRDO/drdo/stimulus/led_blink_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity led_blink_tb
+# -- Compiling architecture sim of led_blink_tb
+# -- Loading entity led_blink
+# End time: 18:16:32 on May 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/led_blink_0=E:/Projects/DRDO/drdo/designer/led_blink/led_blink_ba.sdf" "+transport_path_delays" postlayout.testbench 
+# Start time: 18:16:33 on May 31,2026
+# ** Error: (vsim-3170) Could not find 'testbench'.
+#         Searched libraries:
+#             E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2
+#             E:/Projects/DRDO/drdo/designer/led_blink/simulation/postlayout
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16

@@ -1,0 +1,293 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+@N:"E:\Projects\DRDO\drdo\component\work\top_soc_new\top_soc_new.vhd":17:7:17:17|Top entity is set to top_soc_new.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\top_soc_new\top_soc_new.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 156MB peak: 157MB)
+
+
+Process completed successfully.
+# Wed Jun 17 00:47:47 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v" (library work)
+@I::"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Projects\DRDO\drdo\component\syn_comps.v" (library work)
+@W: CG100 :"E:\Projects\DRDO\drdo\component\syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@I::"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 151MB)
+
+
+Process completed successfully.
+# Wed Jun 17 00:47:48 2026
+
+###########################################################]
+###########################################################[
+@N:"E:\Projects\DRDO\drdo\component\work\top_soc_new\top_soc_new.vhd":17:7:17:17|Top entity is set to top_soc_new.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\Projects\DRDO\drdo\component\work\top_soc_new\top_soc_new.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Projects\DRDO\drdo\component\work\top_soc_new\top_soc_new.vhd":17:7:17:17|Synthesizing work.top_soc_new.rtl.
+@N: CD630 :"E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS.vhd":17:7:17:16|Synthesizing work.mss_c0_mss.rtl.
+@N: CD630 :"E:\Projects\DRDO\drdo\component\work\MSS_C0_MSS\MSS_C0_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+Post processing for work.mss_010.def_arch
+Post processing for work.mss_c0_mss.rtl
+Running optimization stage 1 on MSS_C0_MSS .......
+Finished optimization stage 1 on MSS_C0_MSS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
+@N: CD630 :"E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0.vhd":145:7:145:13|Synthesizing work.fccc_c0.rtl.
+@N: CD630 :"E:\Projects\DRDO\drdo\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd":8:7:8:28|Synthesizing work.fccc_c0_fccc_c0_0_fccc.def_arch.
+Post processing for work.fccc_c0_fccc_c0_0_fccc.def_arch
+Running optimization stage 1 on FCCC_C0_FCCC_C0_0_FCCC .......
+Finished optimization stage 1 on FCCC_C0_FCCC_C0_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
+Post processing for work.fccc_c0.rtl
+Running optimization stage 1 on FCCC_C0 .......
+Finished optimization stage 1 on FCCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
+@N: CD630 :"E:\Projects\DRDO\drdo\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd":66:7:66:17|Synthesizing work.coreapb3_c0.rtl.
+@N: CD630 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD434 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":1498:41:1498:46|Signal infill in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+Running optimization stage 1 on CoreAPB3 .......
+Finished optimization stage 1 on CoreAPB3 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
+Post processing for work.coreapb3_c0.rtl
+Running optimization stage 1 on CoreAPB3_C0 .......
+Finished optimization stage 1 on CoreAPB3_C0 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
+Running optimization stage 1 on apb_led_slave .......
+Finished optimization stage 1 on apb_led_slave (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
+Post processing for work.top_soc_new.rtl
+Running optimization stage 1 on top_soc_new .......
+Finished optimization stage 1 on top_soc_new (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 166MB)
+Running optimization stage 2 on apb_led_slave .......
+Finished optimization stage 2 on apb_led_slave (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 168MB)
+Running optimization stage 2 on CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_28_6_19 .......
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":108:0:108:7|Input PRDATAS1 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":125:0:125:7|Input PREADYS1 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":142:0:142:8|Input PSLVERRS1 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"E:\Projects\DRDO\drdo\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+Finished optimization stage 2 on CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_28_6_19 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
+Running optimization stage 2 on CoreAPB3_C0 .......
+Finished optimization stage 2 on CoreAPB3_C0 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
+Running optimization stage 2 on FCCC_C0_FCCC_C0_0_FCCC .......
+Finished optimization stage 2 on FCCC_C0_FCCC_C0_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
+Running optimization stage 2 on FCCC_C0 .......
+Finished optimization stage 2 on FCCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
+Running optimization stage 2 on MSS_C0_MSS .......
+Finished optimization stage 2 on MSS_C0_MSS (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
+Running optimization stage 2 on top_soc_new .......
+Finished optimization stage 2 on top_soc_new (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: E:\Projects\DRDO\drdo\synthesis\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 167MB peak: 168MB)
+
+
+Process completed successfully.
+# Wed Jun 17 00:47:53 2026
+
+###########################################################]
+###########################################################[
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v" (library work)
+@I::"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\Projects\DRDO\drdo\component\syn_comps.v" (library work)
+@W: CG100 :"E:\Projects\DRDO\drdo\component\syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@I::"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v":3:7:3:19|Synthesizing module apb_led_slave in library work.
+@N: CG179 :"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v":40:23:40:25|Removing redundant assignment.
+Running optimization stage 1 on apb_led_slave .......
+Finished optimization stage 1 on apb_led_slave (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 154MB)
+Running optimization stage 2 on apb_led_slave .......
+@W: CL246 :"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v":13:22:13:27|Input port bits 31 to 4 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on apb_led_slave (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 154MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: E:\Projects\DRDO\drdo\synthesis\synwork\layer1.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 154MB)
+
+
+Process completed successfully.
+# Wed Jun 17 00:47:54 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: LAPTOP-JM793N9B
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+@N|Running in 64-bit mode
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: E:\Projects\DRDO\drdo\synthesis\synwork\top_soc_new_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 156MB peak: 156MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 17 00:47:54 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\Projects\DRDO\drdo\synthesis\synwork\top_soc_new_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:06s; Memory used current: 92MB peak: 93MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:06s cputime
+
+Process completed successfully.
+# Wed Jun 17 00:47:54 2026
+
+###########################################################]

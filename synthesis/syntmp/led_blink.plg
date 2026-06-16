@@ -1,0 +1,11 @@
+@P:  Worst Slack : 6.960
+@P:  led_blink|clk - Estimated Frequency : 328.9 MHz
+@P:  led_blink|clk - Requested Frequency : 100.0 MHz
+@P:  led_blink|clk - Estimated Period : 3.041
+@P:  led_blink|clk - Requested Period : 10.000
+@P:  led_blink|clk - Slack : 6.960
+@P: led_blink Part : m2s010vf400-1
+@P: led_blink Register bits  : 7 
+@P: led_blink DSP Blocks  : 0
+@P: led_blink I/O primitives : 3
+@P:  CPU Time : 0h:00m:03s

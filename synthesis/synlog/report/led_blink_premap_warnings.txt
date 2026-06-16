@@ -1,0 +1,3 @@
+@W: FX1172 :"e:\projects\drdo\drdo\hdl\led_blink.vhd":27:8:27:9|User-specified initial value defined for instance counter[5:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\projects\drdo\drdo\hdl\led_blink.vhd":27:8:27:9|User-specified initial value defined for instance led_reg is being ignored due to limitations in architecture. 
+@W: MT530 :"e:\projects\drdo\drdo\hdl\led_blink.vhd":27:8:27:9|Found inferred clock led_blink|clk which controls 7 sequential elements including counter[5:0]. This clock has no specified timing constraint which may adversely impact design performance. 

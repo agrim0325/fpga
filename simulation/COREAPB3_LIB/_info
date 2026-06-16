@@ -1,0 +1,33 @@
+m255
+K4
+z2
+!s11e vcom 2024.3 2024.09, Sep 11 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Projects/DRDO/drdo/simulation
+Pcomponents
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+w1781530867
+R0
+8E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd
+FE:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd
+l0
+L30 130
+VQIT@o9C7P2I<QZllZOL[^0
+!s100 4gd>8Q^6b`^4`ADHV^I^F1
+OW;C;2024.3;79
+33
+!s110 1781600400
+!i10b 1
+!s108 1781600400.000000
+!s90 -2008|-explicit|-work|COREAPB3_LIB|E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd|
+!s107 E:/Projects/DRDO/drdo/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd|
+!i113 1
+o-2008 -explicit -work COREAPB3_LIB -O0
+tCvgOpt 0

@@ -1,0 +1,3 @@
+@W: FX107 :"e:\projects\drdo\drdo\hdl\apb_slave.vhd":41:8:41:9|RAM reg_bank_0[31:0] (in view: work.apb_slave(behavioral)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock apb_slave|PCLK with period 10.00ns. Please declare a user-defined clock on port PCLK.

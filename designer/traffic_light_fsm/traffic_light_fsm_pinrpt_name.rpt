@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+-Pin Report - Date: Sun Jun  7 16:30:47 2026 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: 2025.2
+-Version: 2025.2.0.14
+-Design Name: traffic_light_fsm
+-Family: SmartFusion2
+-Die: M2S010
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port     |Pin |Fixed |Function                 |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+---------|----|------|-------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+clk       F4   No     MSIO78PB7/GB2             Bank7     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+roadA[0]  B6   No     DDRIO53PB0/MDDR_DQ2       Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+roadA[1]  C8   No     DDRIO48PB0/MDDR_DQ8       Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+roadB[0]  C9   No     DDRIO48NB0/MDDR_DQ9       Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+roadB[1]  A3   No     DDRIO51PB0/MDDR_DM_RDQS0  Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+rst       B7   No     DDRIO50PB0/MDDR_DQ5       Bank0     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               

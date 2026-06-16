@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Tue Jun 16 14:07:32 2026
+Project   :  E:\Projects\DRDO\drdo
+Component :  top_soc_new
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Projects/DRDO/drdo/component/work/top_soc_new/top_soc_new.vhd
+
+Stimulus files for all Simulation tools:
+    E:/Projects/DRDO/drdo/component/work/top_soc_new/subsystem.bfm
+    E:/Projects/DRDO/drdo/component/work/top_soc_new/subsystem.bfm
+

@@ -1,0 +1,5 @@
+@W: FX1172 :"e:\projects\drdo\drdo\hdl\flipflops.vhd":48:8:48:9|User-specified initial value defined for instance q_jk_reg is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\projects\drdo\drdo\hdl\flipflops.vhd":83:8:83:9|User-specified initial value defined for instance q_sr_reg is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\projects\drdo\drdo\hdl\flipflops.vhd":67:8:67:9|User-specified initial value defined for instance q_t_reg is being ignored due to limitations in architecture. 
+@W: FX1172 :"e:\projects\drdo\drdo\hdl\flipflops.vhd":34:8:34:9|User-specified initial value defined for instance q_d_reg is being ignored due to limitations in architecture. 
+@W: MT530 :"e:\projects\drdo\drdo\hdl\flipflops.vhd":48:8:48:9|Found inferred clock flipflops|clk which controls 4 sequential elements including q_jk_reg. This clock has no specified timing constraint which may adversely impact design performance. 

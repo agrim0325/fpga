@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>sequence_detector_moore</design>
+	<target_verilog>E:\Projects\DRDO\drdo\synthesis\sequence_detector_moore.vm</target_verilog>
+</SynplifyOutput>

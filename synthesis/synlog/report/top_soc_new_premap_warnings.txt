@@ -1,0 +1,1 @@
+@W: MT530 :"e:\projects\drdo\drdo\hdl\apb_led_slave.v":27:0:27:5|Found inferred clock FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock which controls 4 sequential elements including apb_led_slave_0.led[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

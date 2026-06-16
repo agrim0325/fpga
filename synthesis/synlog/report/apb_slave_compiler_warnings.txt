@@ -1,0 +1,4 @@
+@W: CG100 :"E:\Projects\DRDO\drdo\component\syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+@W: CL246 :"E:\Projects\DRDO\drdo\hdl\apb_slave.vhd":10:8:10:12|Input port bits 31 to 4 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"E:\Projects\DRDO\drdo\hdl\apb_slave.vhd":10:8:10:12|Input port bits 1 to 0 of paddr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+

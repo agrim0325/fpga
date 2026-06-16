@@ -1,0 +1,11 @@
+@P:  Worst Slack : 8.476
+@P:  vending_machine_fsm|clk - Estimated Frequency : 656.0 MHz
+@P:  vending_machine_fsm|clk - Requested Frequency : 100.0 MHz
+@P:  vending_machine_fsm|clk - Estimated Period : 1.524
+@P:  vending_machine_fsm|clk - Requested Period : 10.000
+@P:  vending_machine_fsm|clk - Slack : 8.476
+@P: vending_machine_fsm Part : m2s010vf400-1
+@P: vending_machine_fsm Register bits  : 2 
+@P: vending_machine_fsm DSP Blocks  : 0
+@P: vending_machine_fsm I/O primitives : 6
+@P:  CPU Time : 0h:00m:04s

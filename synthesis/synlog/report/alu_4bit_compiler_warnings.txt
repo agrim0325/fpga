@@ -1,0 +1,2 @@
+@W: CG100 :"E:\Projects\DRDO\drdo\component\syn_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+

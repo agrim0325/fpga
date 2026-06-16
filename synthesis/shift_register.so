@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>shift_register</design>
+	<target_verilog>E:\Projects\DRDO\drdo\synthesis\shift_register.vm</target_verilog>
+</SynplifyOutput>

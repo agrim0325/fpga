@@ -1,0 +1,11 @@
+@P:  Worst Slack : NA
+@P:  register_4bit|clk - Estimated Frequency : NA
+@P:  register_4bit|clk - Requested Frequency : 100.0 MHz
+@P:  register_4bit|clk - Estimated Period : NA
+@P:  register_4bit|clk - Requested Period : 10.000
+@P:  register_4bit|clk - Slack : NA
+@P: register_4bit Part : m2s010vf400-1
+@P: register_4bit Register bits  : 4 
+@P: register_4bit DSP Blocks  : 0
+@P: register_4bit I/O primitives : 11
+@P:  CPU Time : 0h:00m:03s

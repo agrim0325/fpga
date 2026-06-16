@@ -1,0 +1,51 @@
+Warning: CMPG4-007: Top level port PADDR[31] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[30] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[29] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[28] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[27] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[26] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[25] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[24] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[23] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[22] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[21] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[20] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[19] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[18] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[17] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[16] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[15] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[14] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[13] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[12] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[11] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[10] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[9] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[8] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[7] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[6] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[5] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[4] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[1] is not connected to any IO pad
+Warning: CMPG4-007: Top level port PADDR[0] is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       2 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     2 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    102    0      0      'PCLK_ibuf_RNIFTKQ4' 
+    0      100    0      'PRESETn_ibuf_RNI6S7A5' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

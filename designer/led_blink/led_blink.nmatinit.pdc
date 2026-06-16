@@ -1,0 +1,46 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: led_blink 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Mon Jun  1 00:30:34 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname D11 -fixed no
+set_io led -DIRECTION OUTPUT -pinname A14 -fixed no
+set_io rst -DIRECTION INPUT -pinname A15 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location un5_counter_axbxc3 -fixed no 177 99
+set_location un2_counter -fixed no 168 99
+set_location counter_3\[4\] -fixed no 171 99
+set_location counter\[3\] -fixed no 177 100
+set_location un5_counter_axbxc2 -fixed no 169 99
+set_location counter_3\[1\] -fixed no 170 99
+set_location counter\[1\] -fixed no 170 100
+set_location led_reg_0 -fixed no 172 99
+set_location ip_interface_inst -fixed no 191 0
+set_location counter\[2\] -fixed no 169 100
+set_location counter\[0\] -fixed no 176 100
+set_location counter_RNO\[0\] -fixed no 176 99
+set_location un5_counter_ac0_5 -fixed no 174 99
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 99
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location led_reg -fixed no 172 100
+set_location counter_3\[5\] -fixed no 173 99
+set_location clk_ibuf_RNIVTI21 -fixed no 222 54
+set_location un2_counter_3 -fixed no 175 99
+set_location counter\[5\] -fixed no 173 100
+set_location counter\[4\] -fixed no 171 100

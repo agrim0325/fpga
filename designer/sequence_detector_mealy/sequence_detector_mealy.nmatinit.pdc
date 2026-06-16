@@ -1,0 +1,34 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: sequence_detector_mealy 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Sun Jun  7 17:01:36 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname F4 -fixed no
+set_io detect -DIRECTION OUTPUT -pinname C8 -fixed no
+set_io din -DIRECTION INPUT -pinname C6 -fixed no
+set_io rst -DIRECTION INPUT -pinname A7 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location state\[1\] -fixed no 109 100
+set_location state_ns_1_0_.m2 -fixed no 109 99
+set_location ip_interface_inst -fixed no 191 0
+set_location state_tr4 -fixed no 108 99
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 99
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location state\[0\] -fixed no 108 100
+set_location clk_ibuf_RNIVTI21 -fixed no 220 54

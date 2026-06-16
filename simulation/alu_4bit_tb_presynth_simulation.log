@@ -1,0 +1,86 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap SmartFusion2 E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 12:03:04 on Jun 02,2026
+# vcom -reportprogress 300 -2008 -explicit -work presynth E:/Projects/DRDO/drdo/hdl/alu_4bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_4bit
+# -- Compiling architecture Behavioral of alu_4bit
+# End time: 12:03:04 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 12:03:04 on Jun 02,2026
+# vcom -reportprogress 300 -2008 -explicit -work presynth E:/Projects/DRDO/drdo/stimulus/alu_4bit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_4bit_tb
+# -- Compiling architecture sim of alu_4bit_tb
+# End time: 12:03:04 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L presynth -t 1fs presynth.alu_4bit_tb 
+# Start time: 12:03:04 on Jun 02,2026
+# //  ModelSim Microsemi Pro 2024.3 Sep 11 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading presynth.alu_4bit_tb(sim)
+# Loading presynth.alu_4bit(behavioral)
+# ** Failure: All ALU tests passed
+#    Time: 200 ns  Iteration: 0  Process: /alu_4bit_tb/stim File: E:/Projects/DRDO/drdo/stimulus/alu_4bit_tb.vhd
+# Break in Process stim at E:/Projects/DRDO/drdo/stimulus/alu_4bit_tb.vhd line 64
+add wave  \
+sim:/alu_4bit_tb/A \
+sim:/alu_4bit_tb/B \
+sim:/alu_4bit_tb/op \
+sim:/alu_4bit_tb/res \
+sim:/alu_4bit_tb/C \
+sim:/alu_4bit_tb/Z \
+sim:/alu_4bit_tb/N \
+sim:/alu_4bit_tb/OV
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 200ns
+# ** Failure: All ALU tests passed
+#    Time: 200 ns  Iteration: 0  Process: /alu_4bit_tb/stim File: E:/Projects/DRDO/drdo/stimulus/alu_4bit_tb.vhd
+# Break in Process stim at E:/Projects/DRDO/drdo/stimulus/alu_4bit_tb.vhd line 64
+view full
+# Invalid window pattern: full
+view
+# .main_pane.objects .main_pane.structure .main_pane.source .main_pane.transcript .main_pane.wave .main_pane.library .main_pane.process
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+wave zoom full
+# {0 fs} {210 ns}
+run 200ns
+# ** Failure: All ALU tests passed
+#    Time: 400 ns  Iteration: 0  Process: /alu_4bit_tb/stim File: E:/Projects/DRDO/drdo/stimulus/alu_4bit_tb.vhd
+# Break in Process stim at E:/Projects/DRDO/drdo/stimulus/alu_4bit_tb.vhd line 64
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# End time: 15:02:52 on Jun 02,2026, Elapsed time: 2:59:48
+# Errors: 2, Warnings: 0

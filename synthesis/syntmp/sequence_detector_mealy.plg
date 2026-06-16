@@ -1,0 +1,11 @@
+@P:  Worst Slack : 8.877
+@P:  sequence_detector_mealy|clk - Estimated Frequency : 890.6 MHz
+@P:  sequence_detector_mealy|clk - Requested Frequency : 100.0 MHz
+@P:  sequence_detector_mealy|clk - Estimated Period : 1.123
+@P:  sequence_detector_mealy|clk - Requested Period : 10.000
+@P:  sequence_detector_mealy|clk - Slack : 8.877
+@P: sequence_detector_mealy Part : m2s010vf400-1
+@P: sequence_detector_mealy Register bits  : 2 
+@P: sequence_detector_mealy DSP Blocks  : 0
+@P: sequence_detector_mealy I/O primitives : 4
+@P:  CPU Time : 0h:00m:03s

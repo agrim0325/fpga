@@ -1,0 +1,10 @@
+DESIGN=vending_machine_fsm
+DESDIR=E:\Projects\DRDO\drdo\designer\vending_machine_fsm
+TARGET_DIR=E:\Projects\DRDO\drdo\designer\vending_machine_fsm
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

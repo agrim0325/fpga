@@ -1,0 +1,11 @@
+@P:  Worst Slack : NA
+@P:  apb_led_slave|PCLK - Estimated Frequency : NA
+@P:  apb_led_slave|PCLK - Requested Frequency : 100.0 MHz
+@P:  apb_led_slave|PCLK - Estimated Period : NA
+@P:  apb_led_slave|PCLK - Requested Period : 10.000
+@P:  apb_led_slave|PCLK - Slack : NA
+@P: apb_led_slave Part : m2s010vf400-1
+@P: apb_led_slave Register bits  : 4 
+@P: apb_led_slave DSP Blocks  : 0
+@P: apb_led_slave I/O primitives : 54
+@P:  CPU Time : 0h:00m:03s

@@ -1,0 +1,53 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: shift_register 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Sun Jun  7 09:08:22 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname F4 -fixed no
+set_io en -DIRECTION INPUT -pinname E8 -fixed no
+set_io parallel_in\[0\] -DIRECTION INPUT -pinname B16 -fixed no
+set_io parallel_in\[1\] -DIRECTION INPUT -pinname D7 -fixed no
+set_io parallel_in\[2\] -DIRECTION INPUT -pinname F16 -fixed no
+set_io parallel_in\[3\] -DIRECTION INPUT -pinname E12 -fixed no
+set_io q\[0\] -DIRECTION OUTPUT -pinname D11 -fixed no
+set_io q\[1\] -DIRECTION OUTPUT -pinname D12 -fixed no
+set_io q\[2\] -DIRECTION OUTPUT -pinname E10 -fixed no
+set_io q\[3\] -DIRECTION OUTPUT -pinname A12 -fixed no
+set_io rst -DIRECTION INPUT -pinname B11 -fixed no
+set_io sel\[0\] -DIRECTION INPUT -pinname A15 -fixed no
+set_io sel\[1\] -DIRECTION INPUT -pinname E11 -fixed no
+set_io serial_in -DIRECTION INPUT -pinname C12 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 99
+set_location q_6_1\[1\] -fixed no 168 99
+set_location q_6\[0\] -fixed no 169 99
+set_location q_Z\[0\] -fixed no 168 100
+set_location clk_ibuf_RNIVTI21 -fixed no 220 54
+set_location q_6\[3\] -fixed no 173 99
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location q_6_1\[0\] -fixed no 172 99
+set_location en_ibuf_RNIREHDJ -fixed no 178 99
+set_location q_Z\[1\] -fixed no 171 100
+set_location q_6_1\[2\] -fixed no 176 99
+set_location ip_interface_inst -fixed no 191 0
+set_location q_Z\[3\] -fixed no 173 100
+set_location q_6_1\[3\] -fixed no 174 99
+set_location q_6\[2\] -fixed no 175 99
+set_location q_Z\[2\] -fixed no 175 100
+set_location q_6\[1\] -fixed no 171 99

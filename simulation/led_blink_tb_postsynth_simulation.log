@@ -1,0 +1,41 @@
+# Reading pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap SmartFusion2 E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 23:11:46 on May 31,2026
+# vcom -reportprogress 300 -2008 -explicit -work postsynth E:/Projects/DRDO/drdo/synthesis/led_blink.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity led_blink
+# -- Compiling architecture DEF_ARCH of led_blink
+# End time: 23:11:46 on May 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 23:11:46 on May 31,2026
+# vcom -reportprogress 300 -2008 -explicit -work postsynth E:/Projects/DRDO/drdo/stimulus/led_blink_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture sim of testbench
+# -- Loading entity led_blink
+# End time: 23:11:46 on May 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postsynth -t 1fs postsynth.led_blink_tb 
+# Start time: 23:11:46 on May 31,2026
+# ** Error: (vsim-3170) Could not find 'led_blink_tb'.
+#         Searched libraries:
+#             E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2
+#             E:/Projects/DRDO/drdo/simulation/postsynth
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+# End time: 23:11:56 on May 31,2026, Elapsed time: 0:00:10
+# Errors: 1, Warnings: 0

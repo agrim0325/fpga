@@ -1,0 +1,10 @@
+DESIGN=led_blink
+DESDIR=E:\Projects\DRDO\drdo\designer\led_blink
+TARGET_DIR=E:\Projects\DRDO\drdo\designer\led_blink
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

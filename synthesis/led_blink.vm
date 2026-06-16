@@ -1,0 +1,250 @@
+//
+// Written by Synplify Pro 
+// Product Version "W-2025.03M-SP1-1"
+// Program "Synplify Pro", Mapper "map202503actsp1, Build 108R"
+// Mon Jun  1 00:29:49 2026
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\std.vhd "
+// file 1 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\std1164.vhd "
+// file 3 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\std_textio.vhd "
+// file 4 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\numeric.vhd "
+// file 5 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd\umr_capim.vhd "
+// file 6 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\arith.vhd "
+// file 7 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\unsigned.vhd "
+// file 8 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd\hyperents.vhd "
+// file 9 "\e:\projects\drdo\drdo\hdl\led_blink.vhd "
+// file 10 "\e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\nlconst.dat "
+// file 11 "\e:\projects\drdo\drdo\designer\led_blink\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module led_blink (
+  clk,
+  rst,
+  led
+)
+;
+input clk ;
+input rst ;
+output led ;
+wire clk ;
+wire rst ;
+wire led ;
+wire [5:1] counter_Z;
+wire [5:1] counter_3_Z;
+wire VCC ;
+wire GND ;
+wire un2_counter_Z ;
+wire N_2_i ;
+wire led_reg_0_Z ;
+wire clk_c ;
+wire rst_c ;
+wire led_c ;
+wire un5_counter_axbxc2_Z ;
+wire un5_counter_axbxc3_Z ;
+wire un5_counter_c4 ;
+wire un2_counter_3_Z ;
+wire N_2_i_i ;
+wire rst_c_i ;
+wire clk_ibuf_Z ;
+  CLKINT clk_ibuf_RNIVTI21 (
+	.Y(clk_c),
+	.A(clk_ibuf_Z)
+);
+  CFG1 \counter_RNO[0]  (
+	.A(N_2_i),
+	.Y(N_2_i_i)
+);
+defparam \counter_RNO[0] .INIT=2'h1;
+  CFG1 rst_ibuf_RNIUUM54 (
+	.A(rst_c),
+	.Y(rst_c_i)
+);
+defparam rst_ibuf_RNIUUM54.INIT=2'h1;
+// @9:27
+  SLE \counter[3]  (
+	.Q(counter_Z[3]),
+	.ADn(VCC),
+	.ALn(rst_c_i),
+	.CLK(clk_c),
+	.D(un5_counter_axbxc3_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:27
+  SLE \counter[4]  (
+	.Q(counter_Z[4]),
+	.ADn(VCC),
+	.ALn(rst_c_i),
+	.CLK(clk_c),
+	.D(counter_3_Z[4]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:27
+  SLE \counter[5]  (
+	.Q(counter_Z[5]),
+	.ADn(VCC),
+	.ALn(rst_c_i),
+	.CLK(clk_c),
+	.D(counter_3_Z[5]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:27
+  SLE led_reg (
+	.Q(led_c),
+	.ADn(VCC),
+	.ALn(rst_c_i),
+	.CLK(clk_c),
+	.D(led_reg_0_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:27
+  SLE \counter[0]  (
+	.Q(N_2_i),
+	.ADn(VCC),
+	.ALn(rst_c_i),
+	.CLK(clk_c),
+	.D(N_2_i_i),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:27
+  SLE \counter[1]  (
+	.Q(counter_Z[1]),
+	.ADn(VCC),
+	.ALn(rst_c_i),
+	.CLK(clk_c),
+	.D(counter_3_Z[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:27
+  SLE \counter[2]  (
+	.Q(counter_Z[2]),
+	.ADn(VCC),
+	.ALn(rst_c_i),
+	.CLK(clk_c),
+	.D(un5_counter_axbxc2_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:7
+  INBUF clk_ibuf (
+	.Y(clk_ibuf_Z),
+	.PAD(clk)
+);
+// @9:8
+  INBUF rst_ibuf (
+	.Y(rst_c),
+	.PAD(rst)
+);
+// @9:9
+  OUTBUF led_obuf (
+	.PAD(led),
+	.D(led_c)
+);
+// @9:27
+  CFG4 led_reg_0 (
+	.A(counter_Z[3]),
+	.B(N_2_i),
+	.C(led_c),
+	.D(un2_counter_3_Z),
+	.Y(led_reg_0_Z)
+);
+defparam led_reg_0.INIT=16'hB4F0;
+// @9:31
+  CFG4 \counter_3[1]  (
+	.A(N_2_i),
+	.B(un2_counter_3_Z),
+	.C(counter_Z[3]),
+	.D(counter_Z[1]),
+	.Y(counter_3_Z[1])
+);
+defparam \counter_3[1] .INIT=16'h55A2;
+// @9:31
+  CFG4 un2_counter_3 (
+	.A(counter_Z[5]),
+	.B(counter_Z[4]),
+	.C(counter_Z[2]),
+	.D(counter_Z[1]),
+	.Y(un2_counter_3_Z)
+);
+defparam un2_counter_3.INIT=16'h0008;
+// @9:35
+  CFG3 un5_counter_axbxc2 (
+	.A(counter_Z[2]),
+	.B(counter_Z[1]),
+	.C(N_2_i),
+	.Y(un5_counter_axbxc2_Z)
+);
+defparam un5_counter_axbxc2.INIT=8'h6A;
+// @9:31
+  CFG3 un2_counter (
+	.A(N_2_i),
+	.B(un2_counter_3_Z),
+	.C(counter_Z[3]),
+	.Y(un2_counter_Z)
+);
+defparam un2_counter.INIT=8'h08;
+// @9:35
+  CFG4 un5_counter_ac0_5 (
+	.A(counter_Z[3]),
+	.B(counter_Z[2]),
+	.C(N_2_i),
+	.D(counter_Z[1]),
+	.Y(un5_counter_c4)
+);
+defparam un5_counter_ac0_5.INIT=16'h8000;
+// @9:35
+  CFG4 un5_counter_axbxc3 (
+	.A(counter_Z[3]),
+	.B(counter_Z[2]),
+	.C(N_2_i),
+	.D(counter_Z[1]),
+	.Y(un5_counter_axbxc3_Z)
+);
+defparam un5_counter_axbxc3.INIT=16'h6AAA;
+// @9:31
+  CFG3 \counter_3[4]  (
+	.A(un2_counter_Z),
+	.B(counter_Z[4]),
+	.C(un5_counter_c4),
+	.Y(counter_3_Z[4])
+);
+defparam \counter_3[4] .INIT=8'h14;
+// @9:31
+  CFG4 \counter_3[5]  (
+	.A(counter_Z[5]),
+	.B(counter_Z[4]),
+	.C(un5_counter_c4),
+	.D(un2_counter_Z),
+	.Y(counter_3_Z[5])
+);
+defparam \counter_3[5] .INIT=16'h006A;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* led_blink */
+

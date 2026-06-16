@@ -1,0 +1,14 @@
+
+fsm_encoding {5194191} original
+
+fsm_state_encoding {5194191} S0 {000}
+
+fsm_state_encoding {5194191} S1 {001}
+
+fsm_state_encoding {5194191} S2 {010}
+
+fsm_state_encoding {5194191} S3 {011}
+
+fsm_state_encoding {5194191} S4 {100}
+
+fsm_registers {5194191} {state[2]}  {state[1]}  {state[0]} 

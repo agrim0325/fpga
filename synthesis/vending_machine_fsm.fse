@@ -1,0 +1,12 @@
+
+fsm_encoding {5220221} sequential
+
+fsm_state_encoding {5220221} S0 {00}
+
+fsm_state_encoding {5220221} S5 {01}
+
+fsm_state_encoding {5220221} S10 {10}
+
+fsm_state_encoding {5220221} S15 {11}
+
+fsm_registers {5220221} {state[1]}  {state[0]} 

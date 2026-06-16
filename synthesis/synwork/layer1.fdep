@@ -1,0 +1,26 @@
+#OPTIONS:"|-mixedhdl|-modhint|E:\\Projects\\DRDO\\drdo\\synthesis\\synwork\\_verilog_hintfile|-top|work.apb_led_slave|-mpparams|E:\\Projects\\DRDO\\drdo\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|E:\\Projects\\DRDO\\drdo\\synthesis\\synwork\\top_soc_new_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|E:\\Projects\\DRDO\\drdo\\synthesis\\|-I|E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1763485870
+#CUR:"E:\\Projects\\DRDO\\drdo\\synthesis\\synwork\\_verilog_hintfile":1781637467
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\smartfusion2.v":1763475254
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1763485104
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1763485104
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1763485104
+#CUR:"E:\\Projects\\DRDO\\drdo\\component\\syn_comps.v":1781637459
+#CUR:"E:\\Projects\\DRDO\\drdo\\hdl\\apb_led_slave.v":1781516281
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"E:\Projects\DRDO\drdo\component\syn_comps.v" verilog
+1			"E:\Projects\DRDO\drdo\hdl\apb_led_slave.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+#Design Unit to File Association
+module work MCHP_BLIC 0
+module work apb_led_slave 1
+#Unbound instances to file Association.
+
+#identified top module
+top_module apb_led_slave

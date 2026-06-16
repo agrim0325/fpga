@@ -1,0 +1,60 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2024.3 Lib Mapping Utility 2024.09 Sep 11 2024
+# vmap SmartFusion2 E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 09:05:02 on Jun 07,2026
+# vlog -sv -work presynth E:/Projects/DRDO/drdo/hdl/shift_register.v 
+# -- Compiling module shift_register
+# 
+# Top level modules:
+# 	shift_register
+# End time: 09:05:02 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2024.3 Compiler 2024.09 Sep 11 2024
+# Start time: 09:05:02 on Jun 07,2026
+# vlog "+incdir+E:/Projects/DRDO/drdo/stimulus" -sv -work presynth E:/Projects/DRDO/drdo/stimulus/shift_register_tb.v 
+# -- Compiling module shift_register_tb
+# 
+# Top level modules:
+# 	shift_register_tb
+# End time: 09:05:02 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L presynth -t 1fs presynth.shift_register_tb 
+# Start time: 09:05:03 on Jun 07,2026
+# //  ModelSim Microsemi Pro 2024.3 Sep 11 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading presynth.shift_register_tb
+# Loading presynth.shift_register
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Lenovo  Hostname: LAPTOP-JM793N9B  ProcessID: 5272
+#           Attempting to use alternate WLF file "./wlftf0a4fa".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftf0a4fa
+# PASS: Parallel Load
+# PASS: Shift Left
+# PASS: Shift Right
+# PASS: Hold
+# PASS: Reset
+# ALL SHIFT REGISTER TESTS PASSED
+# ** Note: $stop    : E:/Projects/DRDO/drdo/stimulus/shift_register_tb.v(100)
+#    Time: 67 ns  Iteration: 0  Instance: /shift_register_tb
+# Break in Module shift_register_tb at E:/Projects/DRDO/drdo/stimulus/shift_register_tb.v line 100
+# End time: 09:05:03 on Jun 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

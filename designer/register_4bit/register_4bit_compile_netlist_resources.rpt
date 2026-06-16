@@ -1,0 +1,152 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+Date: Fri Jun  5 00:56:00 2026
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 256 VF         |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------------+
+| Topcell | register_4bit                                    |
+| Format  | Verilog                                          |
+| Source  | E:\Projects\DRDO\drdo\synthesis\register_4bit.vm |
++---------+--------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 0    | 12084 | 0.00       |
+| DFF                       | 4    | 12084 | 0.03       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 11   | 138   | 7.97       |
+| -- Single-ended I/O       | 11   | 138   | 7.97       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 1    | 8     | 12.50      |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 0    | 4   |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 0    | 4   |
++--------------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 7            | 0           | 0               |
+| Output I/O                    | 4            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  7    |  4     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------+
+| Fanout | Type    | Name                              |
++--------+---------+-----------------------------------+
+| 4      | INT_NET | Net   : clk_c                     |
+|        |         | Driver: clk_ibuf_RNIVTI21/U0_RGB1 |
+|        |         | Source: NETLIST                   |
++--------+---------+-----------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-------------------+
+| Fanout | Type    | Name              |
++--------+---------+-------------------+
+| 4      | INT_NET | Net   : rst_c     |
+|        |         | Driver: rst_ibuf  |
+| 4      | INT_NET | Net   : en_c      |
+|        |         | Driver: en_ibuf   |
+| 1      | INT_NET | Net   : d_c[3]    |
+|        |         | Driver: d_ibuf[3] |
+| 1      | INT_NET | Net   : d_c[2]    |
+|        |         | Driver: d_ibuf[2] |
+| 1      | INT_NET | Net   : d_c[1]    |
+|        |         | Driver: d_ibuf[1] |
+| 1      | INT_NET | Net   : d_c[0]    |
+|        |         | Driver: d_ibuf[0] |
+| 1      | INT_NET | Net   : q_c[3]    |
+|        |         | Driver: q_Z[3]    |
+| 1      | INT_NET | Net   : q_c[2]    |
+|        |         | Driver: q_Z[2]    |
+| 1      | INT_NET | Net   : q_c[1]    |
+|        |         | Driver: q_Z[1]    |
+| 1      | INT_NET | Net   : q_c[0]    |
+|        |         | Driver: q_Z[0]    |
++--------+---------+-------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-------------------+
+| Fanout | Type    | Name              |
++--------+---------+-------------------+
+| 4      | INT_NET | Net   : rst_c     |
+|        |         | Driver: rst_ibuf  |
+| 4      | INT_NET | Net   : en_c      |
+|        |         | Driver: en_ibuf   |
+| 1      | INT_NET | Net   : d_c[3]    |
+|        |         | Driver: d_ibuf[3] |
+| 1      | INT_NET | Net   : d_c[2]    |
+|        |         | Driver: d_ibuf[2] |
+| 1      | INT_NET | Net   : d_c[1]    |
+|        |         | Driver: d_ibuf[1] |
+| 1      | INT_NET | Net   : d_c[0]    |
+|        |         | Driver: d_ibuf[0] |
+| 1      | INT_NET | Net   : q_c[3]    |
+|        |         | Driver: q_Z[3]    |
+| 1      | INT_NET | Net   : q_c[2]    |
+|        |         | Driver: q_Z[2]    |
+| 1      | INT_NET | Net   : q_c[1]    |
+|        |         | Driver: q_Z[1]    |
+| 1      | INT_NET | Net   : q_c[0]    |
+|        |         | Driver: q_Z[0]    |
++--------+---------+-------------------+
+

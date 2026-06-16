@@ -1,0 +1,7 @@
+E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe  -link  -top  work.top_soc_new  -multisrs  E:\Projects\DRDO\drdo\synthesis\synwork\top_soc_new_comp.srs  -osyn  E:\Projects\DRDO\drdo\synthesis\synwork\top_soc_new_mult.srs  -log  E:\Projects\DRDO\drdo\synthesis\synlog\top_soc_new_multi_srs_gen.srr 
+relcom:..\..\..\..\..\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe -link -top work.top_soc_new -multisrs ..\synwork\top_soc_new_comp.srs -osyn ..\synwork\top_soc_new_mult.srs -log ..\synlog\top_soc_new_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\top_soc_new_comp.srs|io:i|time:1781637474|size:56330|exec:0|csum:B8DC5F6A5073F6743B4887743BE689FA
+file:..\synwork\top_soc_new_mult.srs|io:o|time:1781637476|size:5060|exec:0|csum:
+file:..\synlog\top_soc_new_multi_srs_gen.srr|io:o|time:1781637476|size:1080|exec:0|csum:
+file:..\..\..\..\..\microchip\libero_soc_2025.2\libero_soc\synplify_pro\bin64\syn_nfilter.exe|io:i|time:1763486150|size:10805248|exec:1|csum:DD061854CD136B38774287DB8598CC64

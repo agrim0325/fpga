@@ -1,0 +1,47 @@
+# Microchip Physical design constraints file
+
+# Version: 2025.2 2025.2.0.14
+
+# Design Name: flipflops 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF , Speed grade: -1 
+
+# Date generated: Thu Jun  4 18:11:41 2026 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname F4 -fixed no
+set_io d -DIRECTION INPUT -pinname B5 -fixed no
+set_io j -DIRECTION INPUT -pinname C9 -fixed no
+set_io k -DIRECTION INPUT -pinname C5 -fixed no
+set_io q_d -DIRECTION OUTPUT -pinname C6 -fixed no
+set_io q_jk -DIRECTION OUTPUT -pinname A7 -fixed no
+set_io q_sr -DIRECTION OUTPUT -pinname A5 -fixed no
+set_io q_t -DIRECTION OUTPUT -pinname D2 -fixed no
+set_io r -DIRECTION INPUT -pinname B7 -fixed no
+set_io rst -DIRECTION INPUT -pinname B6 -fixed no
+set_io s -DIRECTION INPUT -pinname A2 -fixed no
+set_io t -DIRECTION INPUT -pinname A10 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location q_t_reg -fixed no 87 100
+set_location clk_ibuf_RNIVTI21/U0_RGB1 -fixed no 218 99
+set_location q_jk_reg_3_f0 -fixed no 86 99
+set_location q_sr_reg_RNO -fixed no 84 99
+set_location clk_ibuf_RNIVTI21 -fixed no 220 54
+set_location q_d_reg -fixed no 85 100
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location q_jk_reg -fixed no 86 100
+set_location q_jk_reg3_i -fixed no 88 99
+set_location q_t_reg_0 -fixed no 87 99
+set_location q_sr_reg -fixed no 84 100
+set_location ip_interface_inst -fixed no 191 0
+set_location q_sr_reg3_i -fixed no 85 99
